@@ -120,7 +120,13 @@ current state with the `==` operator.  The program must write `TRUE`
 or `FALSE` to the output.
 
 
+Passoff
+-------
 
+Submit your source code to Canvas along with a Makefile that will build it on an Ubuntu 16.04
+system with the proper development environment installed.  Your executable must be named
+`rubik_test`.  Several acceptance tests will be executed.  If the code passes all tests,
+it will be accepted.  If not, it will be send back for completion.
 
 
   

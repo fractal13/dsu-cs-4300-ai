@@ -1,0 +1,204 @@
+syllabus-cgl.txt
+
+CS 3005: Programming in C++
+===============================================
+
+Fall 2017 Syllabus
+--------------------
+
+### Course Description
+
+For students pursuing degrees in Computer Science and 
+Computer and Information Technologies, or any student 
+with a strong interest in computer programming.  Covers syntax 
+and semantics of the C++ programming language through completion 
+of hands-on projects.  The student must already be fluent in 
+some other programming language. 
+
+### Prerequisites
+
+CS 1410 (Grade C- or higher)
+
+
+### Course fees
+
+{fees}
+
+
+### Disability Statement
+
+{disability}
+
+
+### Sections
+
+1.  MWF 9:00 - 9:50 am in Smith 117
+
+    Final exam December 13 at 9:00 - 11:00 am
+
+
+### Instructor
+
+[Curtis Larsen](/faculty/larsen.php)
+
+
+Objectives
+----------
+
+The student learning outcomes for this course are:
+
+*    Construct computer programs in C++, using functions, classes and STL elements.
+*    Construct computer programs using stack, heap and static memory.
+*    Construct computer programs in a statically typed language. 
+*    Construct and use unit tests.
+*    Use version control to manage code.
+*    Use memory checking and debugging tools.
+*    Create larger programs than in previous course work.
+
+The following C++ language constructs will be covered:
+
+*    C++ syntax
+*    Typed variables and values
+*    Pointers and references
+*    Dynamic, stack and static memory
+*    C++ functions
+*    C++ classes
+*    Polymorphism
+*    Namespaces
+*    Making a class robust
+*    const, in all its flavors
+*    Template functions and classes
+*    Standard template library (STL)
+*    Recursion
+*    Exceptions
+
+
+
+Resources
+---------
+
+### Textbook
+
+There is no required text for the course.  However, reference sources
+for C++, the STL and C will be very helpful.
+
+1.  *Online References*
+    [C++ Reference](http://www.cplusplus.com/)
+    [C++ Tutorial](http://www.cplusplus.com/doc/tutorial/)
+
+2.  *The C++ Programming Language, Special Edition*
+    by Bjarne Stroustrup
+    [ISBN: 978-0201700732](http://www.google.com/products?q=9780201700732)
+    (optional)
+
+3.  *The C Programming Language, Second Edition*
+    by Brian Kernighan and Dennis Ritchie
+    [ISBN: 0-13-110362-8](http://www.google.com/products?q=0131103628)
+    (optional)
+
+4.  *The Annotated ANSI C Standard*
+    by Herbert Schildt
+    [ISBN: 0-07-881952-0](http://www.google.com/products?q=0078819520)
+    (optional)
+
+
+### Other Resources
+
+-   [Linux: Create, Compile, Link, Run Simple Program](https://www.youtube.com/watch?v=XgADkK-btIM)(3:23)
+-   [Linux: Create, Compile, Link, Run Multiple File Program](https://www.youtube.com/watch?v=hxTQdDJ51Kk)(9:45)
+
+
+### Computer Labs
+
+{labs}
+
+
+### Course Web Site
+
+{website}
+
+
+Assignments and Exams
+---------------------
+
+### Reading
+
+While there is no required text book.  Students are expected
+to find and read relevant references and example programs.
+
+
+### Drills
+
+A series of exercises will be required.  These will be
+small, but plentiful exercises completed in the Code Grinder
+system.  The intention of these exercises is to ensure that
+students have multiple experiences with each of the elements of the
+C++ programming language.  Access these drills via 
+[Canvas](http://dixie.instructure.com/).  Drills will be due most days
+before class begins.
+
+### Assignments
+
+A series of programming assignments will be
+required.  These assignments are due on the date and time listed in the
+schedule, or as stated by the instructor during class.  It
+cannot be over emphasized that it is important to start early and 
+get all of your assignments done before their due dates.
+Programs that do not run correctly will receive no credit.
+
+Parts of some programming assignments will be completed inside Code Grinder.
+Parts or all of most assignments will be completed inside a development
+environment such as the GNU tool chain, XCode or Visual Studio.
+The GNU tool chain is recommended.
+
+The source of programming assignments will be submitted to the
+[Canvas](http://dixie.instructure.com/) assignment page by the due date and time.
+
+### Participation
+
+You will be required to give positive contributions to class
+discussions.
+
+### Exams
+
+There will be a midterm and a final. Test tasks will be 
+extensions of homework assignments and small new programs.
+Be sure to understand your assignments and keep backups of all your work. 
+
+### Grading
+
+Letter grades will be assigned based on the percentage of total possible points attained.
+The point totals will be approximately: drills 20, assignments 120, participation 20, midterm exam 100 and final exam 200.  The following chart will be used for letter grades.
+
+{gradescale}
+
+
+Course Policies
+---------------
+
+### Attendance
+
+{attendance}
+
+### Time Commitment
+
+{timecommitment}
+
+### Late Policy
+
+Each assignment has two due dates.  The earliest due date is the required date.  The second date is the absolute latest date to submit the assignment.
+Late work will not be accepted after the second date.
+
+### Collaboration
+
+{collaboration}
+
+### Cheating
+
+{cheating}
+
+
+College Policies
+----------------
+
+{collegepolicies}

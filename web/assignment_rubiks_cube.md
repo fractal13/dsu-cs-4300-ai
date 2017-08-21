@@ -20,7 +20,7 @@ Required Class Elements
 
 - protected or private data member(s) to represent the state of the cube.
   We will be using the layout shown in
-  ![this image](https://en.wikipedia.org/wiki/File:Rubik%E2%80%99s_cube_colors.svg).
+  [this image](https://en.wikipedia.org/wiki/File:Rubik%E2%80%99s_cube_colors.svg).
 - public method to allow any of the 12 legal rotation moves.  For each of the 6 faces,
   you can rotate the cube clockwise or counter-clockwise.
 - `bool operator==(const RubiksCube& rhs) const`, comparision operator that returns

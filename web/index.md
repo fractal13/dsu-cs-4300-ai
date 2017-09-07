@@ -1,4 +1,4 @@
-CS 3005: Programming in C++
+CS 4300: Artificial Intelligence
 ===============================================
 
 Fall 2017

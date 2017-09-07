@@ -1,6 +1,6 @@
 syllabus-cgl.txt
 
-CS 3005: Programming in C++
+CS 4300: Artificial Intelligence 
 ===============================================
 
 Fall 2017 Syllabus
@@ -8,16 +8,14 @@ Fall 2017 Syllabus
 
 ### Course Description
 
-For students pursuing degrees in Computer Science and 
-Computer and Information Technologies, or any student 
-with a strong interest in computer programming.  Covers syntax 
-and semantics of the C++ programming language through completion 
-of hands-on projects.  The student must already be fluent in 
-some other programming language. 
+Required of students pursuing a Computer Science degree or emphasis.  
+Introduces the broad field of artificial intelligence in computer
+software followed by specific applications in computer gaming
+strategies.  Students will complete programming assignments.
 
 ### Prerequisites
 
-CS 1410 (Grade C- or higher)
+CS 2420 and CS 2810 both with a C- or better
 
 
 ### Course fees
@@ -32,9 +30,9 @@ CS 1410 (Grade C- or higher)
 
 ### Sections
 
-1.  MWF 9:00 - 9:50 am in Smith 117
+1.  MWF 8:00 - 8:50 am in Smith 117
 
-    Final exam December 13 at 9:00 - 11:00 am
+    Final exam December 11 at 7:00 - 8:50 am
 
 
 ### Instructor
@@ -45,33 +43,28 @@ CS 1410 (Grade C- or higher)
 Objectives
 ----------
 
-The student learning outcomes for this course are:
+The student will be able to discuss the principles of:
 
-*    Construct computer programs in C++, using functions, classes and STL elements.
-*    Construct computer programs using stack, heap and static memory.
-*    Construct computer programs in a statically typed language. 
-*    Construct and use unit tests.
-*    Use version control to manage code.
-*    Use memory checking and debugging tools.
-*    Create larger programs than in previous course work.
+*    problem solving using uninformed search,
+*    problem solving using informed search,
+*    problem solving using local search,
+*    propositional and first order logic,
+*    probability and probabalistic reasoning,
+*    machine learning,
+*    select topics in artificial intelligence.
 
-The following C++ language constructs will be covered:
+The student will be able to:
 
-*    C++ syntax
-*    Typed variables and values
-*    Pointers and references
-*    Dynamic, stack and static memory
-*    C++ functions
-*    C++ classes
-*    Polymorphism
-*    Namespaces
-*    Making a class robust
-*    const, in all its flavors
-*    Template functions and classes
-*    Standard template library (STL)
-*    Recursion
-*    Exceptions
-
+*    design problem definitions suitable for use
+     in search algorithms,
+*    implement and use search algorithms,
+*    design and implement propositional logic
+     to solve problems,
+*    design and implement baysian networks
+     to solve problems,
+*    implement large software projects using
+     third party libraries,
+*    work in large software projects with legacy code.
 
 
 Resources
@@ -79,39 +72,26 @@ Resources
 
 ### Textbook
 
-There is no required text for the course.  However, reference sources
-for C++, the STL and C will be very helpful.
+There is one text for this course, available from the campus
+bookstore:
 
-1.  *Online References*
-    [C++ Reference](http://www.cplusplus.com/)
-    [C++ Tutorial](http://www.cplusplus.com/doc/tutorial/)
-
-2.  *The C++ Programming Language, Special Edition*
-    by Bjarne Stroustrup
-    [ISBN: 978-0201700732](http://www.google.com/products?q=9780201700732)
+1.  *Artificial Intelligence: A Modern Approach 3rd Ed.*
+    by Russell and Norvig,
+    [ISBN: 978-0-13-604259-4](http://www.google.com/products?q=9780136042594)
     (optional)
 
-3.  *The C Programming Language, Second Edition*
-    by Brian Kernighan and Dennis Ritchie
-    [ISBN: 0-13-110362-8](http://www.google.com/products?q=0131103628)
-    (optional)
-
-4.  *The Annotated ANSI C Standard*
-    by Herbert Schildt
-    [ISBN: 0-07-881952-0](http://www.google.com/products?q=0078819520)
-    (optional)
-
-
-### Other Resources
-
--   [Linux: Create, Compile, Link, Run Simple Program](https://www.youtube.com/watch?v=XgADkK-btIM)(3:23)
--   [Linux: Create, Compile, Link, Run Multiple File Program](https://www.youtube.com/watch?v=hxTQdDJ51Kk)(9:45)
 
 
 ### Computer Labs
 
 {labs}
 
+The homework resources provided require the student to work in
+Linux.  The 64-bit Ubuntu 16.04 version is required.  This
+software is available in the lab.  Students choosing to work in another
+setting will need to provide a version of this OS, with the GNU
+C++ tools for software development.  Note that the Linux development
+environment inside Windows 10 as worked for previous students.
 
 ### Course Web Site
 
@@ -123,52 +103,35 @@ Assignments and Exams
 
 ### Reading
 
-While there is no required text book.  Students are expected
-to find and read relevant references and example programs.
+{reading}
 
-
-### Drills
-
-A series of exercises will be required.  These will be
-small, but plentiful exercises completed in the Code Grinder
-system.  The intention of these exercises is to ensure that
-students have multiple experiences with each of the elements of the
-C++ programming language.  Access these drills via 
-[Canvas](http://dixie.instructure.com/).  Drills will be due most days
-before class begins.
 
 ### Assignments
 
-A series of programming assignments will be
-required.  These assignments are due on the date and time listed in the
-schedule, or as stated by the instructor during class.  It
-cannot be over emphasized that it is important to start early and 
-get all of your assignments done before their due dates.
-Programs that do not run correctly will receive no credit.
+There will be assignment requirements due each week.  Most assignment
+requirements will combine into larger projects to create software agents
+to perform rationally in a simulated environment.
 
-Parts of some programming assignments will be completed inside Code Grinder.
-Parts or all of most assignments will be completed inside a development
-environment such as the GNU tool chain, XCode or Visual Studio.
-The GNU tool chain is recommended.
-
-The source of programming assignments will be submitted to the
-[Canvas](http://dixie.instructure.com/) assignment page by the due date and time.
-
-### Participation
-
-You will be required to give positive contributions to class
-discussions.
 
 ### Exams
 
-There will be a midterm and a final. Test tasks will be 
-extensions of homework assignments and small new programs.
-Be sure to understand your assignments and keep backups of all your work. 
+There will be two written midterm exams scheduled in the testing 
+center during the semester as shown in the class schedule.
+
+There will be a final exam as scheduled during finals week.  The
+final will include extensions to the course projects.  The student
+is responsible for keeping working backups of all code submitted
+during the semester.
+
 
 ### Grading
 
-Letter grades will be assigned based on the percentage of total possible points attained.
-The point totals will be approximately: drills 20, assignments 120, participation 20, midterm exam 100 and final exam 200.  The following chart will be used for letter grades.
+Assignments will count for 40% of your point total.  The midterm
+exams will count for 30% of your point total (15% each).  The 
+final exam will count for 30% of your point total.
+
+Letter grades are assigned based on the percentage of possible
+points attained, according to the following chart:
 
 {gradescale}
 

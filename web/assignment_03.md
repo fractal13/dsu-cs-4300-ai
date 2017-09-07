@@ -1,1 +1,1 @@
-assignment_blank.md
+assignments/assignment_rubiks_cube_unittests.md

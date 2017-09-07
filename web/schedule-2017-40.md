@@ -1,37 +1,33 @@
-CS 3005: Programming in C++
+CS 4300: Artificial Intelligence
 ===============================================
 
 Fall 2017 Schedule
 --------------------
 
 
-Day         | Topic                                         | Work Due
-------------|-----------------------------------------------|---------
-W01         | Functions, Code Blocks, Variables, Arithmetic, User I/O  |
-W01         | Comparisons, Conditionals, Counted Loops, Sentinel Loops |
-W01         | Development Tools: Edit/Compile/Run           | 
-W01         |                                               | Drills in Canvas
-            |                                               |
-            |                                               |
-W02         | Classes, Objects, Random Numbers              |
-W02         | Inheritance, Templates, Introduction to the Standard Template Library |
-W02         | Development Tools: Make                       | 
-W02         | Version Control: Add/Commit                   |
-W02         |                                               | Drills in Canvas
-            |                                               |
-            |                                               |
-H Sep 4     | *Labor Day* (no classes)                      |
-W03         | Memory Model: Stack, Heap and Static Memory   | 
-W03         | Arrays, Pointers, Indexes                     | 
-W03         | Scope                                         | 
-W03         | Development Tools: Debug/Memory Check         |
-W03         |                                               | **[Assignment 1](assignment_01.php)**
-            |                                               |
-            |                                               |
-W04         | Operator Overloading                          | 
-W04         | Dynamic Memory in Classes                     |
-W04         | Development Cycle: Unit Tests                 |
-W04         |                                               | **[Assignment 2](assignment_02.php)**
+Day         | Topic                                          | Work Due
+------------|------------------------------------------------|---------
+W01         | Rubik's Cube - Complexity of Exhaustive Search |
+W01         | What is AI?, Agent/Environment Model, Rationality, Environment Classification |
+W01         | Agent Structure, AI-Library                    |
+            |                                                |
+            |                                                |
+W02         |                                                | [Rubik's Cube Class](assignment_01.php)
+W02         | Solving Problems by Searching                  |
+W02         | Uninformed Search                              |
+W02         | Uninformed Search                              |
+            |                                                |
+            |                                                |
+H Sep 4     | *Labor Day* (no classes)                       |
+W03         |                                                | [02](assignment_02.php)
+W03         | Informed Search                                | 
+W03         | Informed Search                                | 
+            |                                                |
+            |                                                |
+W04         |                                                | [03](assignment_03.php)
+W04         | Local Search                                   | 
+W04         | Local Search                                   | 
+W04         | Local Search                                   | 
             |                                               |
             |                                               |
 W05         | File I/O                                      |

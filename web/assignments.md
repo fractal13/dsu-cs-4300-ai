@@ -1,7 +1,7 @@
 CS 4300: Artificial Intelligence
 ===============================================
 
-Fall 2017 Assignments
+Fall 2018 Assignments
 -----------------------
 
 * Assignment 1: [Rubik's Cube Class](assignment_01.php)

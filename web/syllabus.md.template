@@ -3,7 +3,7 @@ syllabus-cgl.txt
 CS 4300: Artificial Intelligence 
 ===============================================
 
-Fall 2017 Syllabus
+Fall 2018 Syllabus
 --------------------
 
 ### Course Description
@@ -30,9 +30,9 @@ CS 2420, CS 2810 and CS 3005 all with a C- or better.
 
 ### Sections
 
-1.  MWF 8:00 - 8:50 am in Smith 117
+1.  TR 10:30 - 11:45 am in Smith 116
 
-    Final exam December 11 at 7:00 - 8:50 am
+    Final exam December 11 at 9:00 - 10:50 am
 
 
 ### Instructor
@@ -87,11 +87,12 @@ bookstore:
 {labs}
 
 The homework resources provided require the student to work in
-Linux.  The 64-bit Ubuntu 16.04 version is required.  This
+Linux.  The 64-bit Ubuntu 18.04 version is required.  This
 software is available in the lab.  Students choosing to work in another
 setting will need to provide a version of this OS, with the GNU
 C++ tools for software development.  Note that the Linux development
-environment inside Windows 10 as worked for previous students.
+environment inside Windows 10 has worked for previous students.
+Other students have used VirtualBox to install the required OS.
 
 ### Course Web Site
 
@@ -115,7 +116,7 @@ to perform rationally in a simulated environment.
 
 ### Exams
 
-There will be two written midterm exams scheduled in the testing 
+There will be two written exams scheduled in the testing 
 center during the semester as shown in the class schedule.
 
 There will be a final exam as scheduled during finals week.  The
@@ -126,8 +127,8 @@ during the semester.
 
 ### Grading
 
-Assignments will count for 40% of your point total.  The midterm
-exams will count for 30% of your point total (15% each).  The 
+Assignments will count for 50% of your point total.  The midterm
+exams will count for 20% of your point total (10% each).  The 
 final exam will count for 30% of your point total.
 
 Letter grades are assigned based on the percentage of possible
@@ -150,7 +151,7 @@ Course Policies
 ### Late Policy
 
 Each assignment has two due dates.  The earliest due date is the required date.  The second date is the absolute latest date to submit the assignment.
-Late work will not be accepted after the second date.
+Late work will not be accepted after the second date.  See Canvas for due dates.
 
 ### Collaboration
 

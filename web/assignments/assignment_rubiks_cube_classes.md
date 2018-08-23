@@ -10,7 +10,7 @@ library framework, and begin to implement the search related
 classes.
 
 This assignment requires you to clone the course source code
-git repository into an environment compatible with Ubuntu 16.04.
+git repository into an environment compatible with Ubuntu 18.04.
 This can be accomplished with a native installation, a virtual
 machine or the Windows Subsystem for Linux.
 

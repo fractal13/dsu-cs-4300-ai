@@ -16,14 +16,14 @@ T           | Solving Problems by Searching                  |
 R           | Solving Problems by Searching                  |
 W03         |                                                |
 H Sep 3     | *Labor Day* (no classes)                       |
-T           | Heuristics                                     | **[Assignment 2](assignment_02.php)**
+T           | Heuristics                                     | **[Rubik's Cube Action/State/Problem Classes](assignment_02.php)**
 R           | Quantifying Uncertainty                        |
 W04         |                                                |
-M           |                                                | **[Assignment 3](assignment_03.php)**
+M           |                                                | **[Rubik's Cube Action/State/Problem Unit Tests](assignment_03.php)**
 T           | Local Search                                   |
 R           | Local Search                                   |
 W05         |                                                |
-M           |                                                | **[Assignment 4](assignment_04.php)**
+M           |                                                | **[Rubik's Cube Solver Study](assignment_04.php)**
 T           | Quantifying Uncertainty                        |
 R           | Probabilistic Reasoning                        |
 W06         |                                                |

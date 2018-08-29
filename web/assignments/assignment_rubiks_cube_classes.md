@@ -10,9 +10,12 @@ library framework, and begin to implement the search related
 classes.
 
 This assignment requires you to clone the course source code
-git repository into an environment compatible with Ubuntu 18.04.
+git repository into an environment compatible with Ubuntu 16.04 or 18.04.
 This can be accomplished with a native installation, a virtual
 machine or the Windows Subsystem for Linux.
+
+Go to the Canvas announcement to get the link required to
+checkout your assignment repository.
 
 
 Required Classes
@@ -29,19 +32,15 @@ Required Classes
   This class requires at least 4 methods, in addition to the constructor.
   Look at the `Actions`, `GoalTest`, `Result` and `StepCost` methods.
 
-Required Build System
-----------------------
-
-- Configure the build system to recognize your files in `cs4300-code-ai-agents/build/linux/prog/RubiksCube/Makefile.RubiksCubeSolver`.
-
 Required Functionality
 ----------------------
 
 - Your code must compile, and be as close to correct as possible.
-- No executable program is required at this stage.
+- No additional executable program functionality is required at this stage.
 
 Passoff
 -------
 
-Submit your source code from `cs4300-code-ai-agents/prog/RubiksCube` to Canvas.
+Submit your source code by committing and pushing the repository.
+
 

@@ -8,7 +8,7 @@ This assignment is built on top of the previous assignments.
 You will now implement a program to search for a solution to
 Rubik's Cube problems.
 
-You should bring forward your test program from the first
+You should modify program from the first
 assignment that can read instructions from input and
 execute operations on a cube.
 
@@ -28,12 +28,6 @@ Required Code
   used to create the initial state of the search tree.
 - The `config` operations configure parameters for any subsequent `solve` operations.
 - An implementation of a heuristic function for your problem class.
-
-Required Build System
-----------------------
-
-- Any new files need to be added to the build system for the RubiksCubeSolver and
-  RubiksCubeUnitTests
 
 Required Functionality
 ----------------------
@@ -56,5 +50,5 @@ Cubes to Solve
 Passoff
 -------
 
-Submit your source code from `cs4300-code-ai-agents/prog/RubiksCube` to Canvas.
-Also submit your report, in the PDF format.
+Submit your source code by committing and pushing the repository.
+Also submit your report in Canvas, in the PDF format.

@@ -21,12 +21,6 @@ Required Code
   `test_search_action.cpp` might be useful for holding the unit tests of the
   `Action` class.
 
-Required Build System
-----------------------
-
-- Configure the build system to recognize your tests in `cs4300-code-ai-agents/build/linux/prog/RubiksCube/Makefile.RubiksCubeUnitTests`.
-- Include your non-test .cpp and .h files in the Makefile.
-
 Required Functionality
 ----------------------
 
@@ -36,7 +30,6 @@ Required Functionality
 Passoff
 -------
 
-Submit your source code from `cs4300-code-ai-agents/prog/RubiksCube` to Canvas.
-This should include the contents of the `tests` subdirectory.
+Submit your source code by committing and pushing the repository.
 
 

@@ -87,12 +87,15 @@ bookstore:
 {labs}
 
 The homework resources provided require the student to work in
-Linux.  The 64-bit Ubuntu 18.04 version is required.  This
+Linux.  This
 software is available in the lab.  Students choosing to work in another
-setting will need to provide a version of this OS, with the GNU
+setting will need to provide a version of the Ubuntu OS, with the GNU
 C++ tools for software development.  Note that the Linux development
 environment inside Windows 10 has worked for previous students.
 Other students have used VirtualBox to install the required OS.
+
+[Notes for installing g++](/cs/3005/gplusplus-installation.md)
+
 
 ### Course Web Site
 

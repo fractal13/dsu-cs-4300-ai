@@ -9,15 +9,15 @@ Day         | Topic                                          | Work Due
 ------------|------------------------------------------------|---------
 W01         |                                                |
 T           | Introduction / Intelligent Agents / Rubik's Cube |
-R           | Intelligent Agents                             |
+R           | Intelligent Agents            (Chapter 2)      |
 W02         |                                                |
 M           |                                                | **[Rubik's Cube Class](assignment_01.php)**
-T           | Solving Problems by Searching                  |
-R           | Solving Problems by Searching                  |
+T           | Solving Problems by Searching (Chapter 3)      |
+R           | Solving Problems by Searching (Chapter 3)      |
 W03         |                                                |
 H Sep 3     | *Labor Day* (no classes)                       |
-T           | Heuristics                                     | **[Rubik's Cube Action/State/Problem Classes](assignment_02.php)**
-R           | Quantifying Uncertainty                        |
+T           | Heuristics                (Chapter 3)          | **[Rubik's Cube Action/State/Problem Classes](assignment_02.php)**
+R           | Quantifying Uncertainty   (Chapter 13)         | 
 W04         |                                                |
 M           |                                                | **[Rubik's Cube Action/State/Problem Unit Tests](assignment_03.php)**
 T           | Local Search                                   |

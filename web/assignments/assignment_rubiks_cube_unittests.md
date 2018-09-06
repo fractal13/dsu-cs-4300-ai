@@ -17,6 +17,7 @@ Required Code
 - Create unit test implementation files in `cs4300-code-ai-agents/prog/RubiksCube/tests`.
 - At a minimum, there should be a test for every possible outcome of every method
   of every class.
+- Consider writing unit tests for your Rubik's Cube class from the first assignment.
 - Consider using different unit test .cpp files for different purposes.  For example,
   `test_search_action.cpp` might be useful for holding the unit tests of the
   `Action` class.
@@ -31,5 +32,3 @@ Passoff
 -------
 
 Submit your source code by committing and pushing the repository.
-
-

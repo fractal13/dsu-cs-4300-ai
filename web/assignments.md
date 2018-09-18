@@ -8,7 +8,7 @@ Fall 2018 Assignments
 * Assignment 2: [Rubik's Cube Action/State/Problem Classes](assignment_02.php)
 * Assignment 3: [Rubik's Cube Action/State/Problem Unit Tests](assignment_03.php)
 * Assignment 4: [Rubik's Cube Solver Study](assignment_04.php)
-* Assignment 5: [05](assignment_05.php)
+* Assignment 5: [Rubik's Cube Solver Optimization](assignment_05.php)
 * Assignment 6: [06](assignment_06.php)
 * Assignment 7: [07](assignment_07.php)
 * Assignment 8: [08](assignment_08.php)

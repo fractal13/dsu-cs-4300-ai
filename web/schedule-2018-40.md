@@ -27,6 +27,7 @@ M           |                                                | **[Rubik's Cube S
 T           | Quantifying Uncertainty                        |
 R           | Probabilistic Reasoning                        |
 W06         |                                                |
+M           |                                                | **[Rubik's Cube Solver Optimization](assignment_05.php)**
 T           | Adversarial Search                             |
 R           | Adversarial Search                             |
 W07         |                                                |

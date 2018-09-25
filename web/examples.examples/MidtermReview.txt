@@ -1,0 +1,112 @@
+Chapter 2
+---------
+
+PEAS assessment
+  - Performance Measure
+    + "Happiness" of the agent
+    + Utility
+    + Numerical measure of the agent's performance
+  - Environment
+    + Fully/Partially Observable
+    + Episodic/Sequential
+    + Deterministic/Stochastic
+    + Static/Dynamic
+    + Single/Multi Agent
+    + Discrete/Continuous
+    + Known/Unknown
+  - Actuators
+  - Sensors
+
+Agent Design
+  - Reflex Agents
+  - Model Agents
+    + Model Reflex
+    + Model Goal 
+    + Model Utility
+  - Learning Agents
+
+
+Chapter 3
+---------
+
+Search Algorithm
+  - Tree
+    + May have cycles
+    + Remembers the frontier and dependencies
+  - Graph
+    + Eliminates cycles
+    + Remembers all states generated
+
+Search Frontiers
+  - Definitions
+    + b == branching factor (number of actions at each state)
+    + {b*} == effective branching factor
+    + d == depth of shallowest goal state
+    + m == maximum depth of tree (watch out for infinite)
+    + l = maximum depth limit (artificial maximum depth of tree/graph)
+    + C* = cost of optimal path
+    + epsilon = minimum step cost
+  - Depth First
+    + Stack - LIFO Queue
+    + TIME = O(b^m)
+    + SPACE = O(bm)
+    + COMPLETE if m is not inifinite
+    + NOT-OPTIMAL
+  - Depth Limited
+    + Stack - LIFO Queue
+    + TIME = O(b^l)
+    + SPACE = O(bl)
+    + COMPLETE if l >= d
+    + NOT-OPTIMAL
+  - Breadth First
+    + Queue - FIFO Queue
+    + TIME = O(b^d)
+    + SPACE = O(b^d)
+    + COMPLETE
+    + OPTIMAL if step costs are identical
+  - Uniform Cost
+    + Priority Queue (min heap) ordered by g(n) = cost so far.
+    + TIME = O(b^{C*/epsilon})
+    + SPACE = O(b^{C*/epsilon})
+    + COMPLETE
+    + OPTIMAL
+  - Iterative Deepening
+    + Loop around Depth Limited
+    + TIME = O(b^d)
+    + SPACE = O(bd)
+    + COMPLETE
+    + OPTIMAL if step costs are identical
+  - A*
+    + h(n) = Heuristic : best guess of remaining cost, without going over
+    + f(n) = g(n) + h(n)
+    + Priority Queue (min heap) ordered by f(n)
+    + TIME = O({b*}^{C*/epsilon})
+    + SPACE = O({b*}^{C*/epsilon})
+    + COMPLETE if h(n) is admissible
+    + OPTIMAL if h(n) is admissible
+  - Greedy (not covered)
+    + Priority Queue (min heap) ordered by h(n)
+  
+Chapter 4
+---------
+
+Local Search
+  - Instant Check
+  - Hill Climbing/Gradient Descent
+    + Find global extrema
+    + Stuck on local extrema
+    + Best: Move to best neighbor
+    + BestFirst: Move to better neighbor
+  - Simulated Annealing
+    + Move to a neighbor, maybe not better
+    + Use "temperature" to slowly "cool" the chance of moving to worse neighbor
+    + Continue until system has "cooled" to minimum "temperature" and at an extrema
+  - Beam Search
+    + Track k current states
+    + Pick best k of their neighbors
+  - Genetic Algorithm
+    + Track a population
+    + Create new population by mixing current population
+    + Participation depends on fitness of individual
+    + Mutations add diversity of genome
+  - Random Restart

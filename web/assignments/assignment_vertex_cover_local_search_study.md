@@ -16,6 +16,7 @@ Requirements
   in solving problems of size N for each of the 3 search algorithms.
 - Generate a quality chart showing the quality of solution
   in solving problems of size N for each of the 3 search algorithms.
+- Add these charts to the documentation from the previous assignment.
 
 
 Passoff

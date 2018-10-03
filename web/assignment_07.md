@@ -1,1 +1,1 @@
-assignments/assignment_local_search_study.md
+assignments/assignment_vertex_cover_local_search_study.md

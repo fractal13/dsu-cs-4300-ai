@@ -33,10 +33,12 @@ R           | Adversarial Search                             |
 W07         |                                                |
 T           | Probabilistic Reasoning                        |
 R           | Probabilistic Reasoning over Time              | **Written Exam I**
-W08         |                                                |
+W08         |                                                | 
+M           |                                                | **[Vertex Cover Local Search](assignment_06.php)**
 T           | Probabilistic Reasoning over Time              |
 H Oct 11-12 | *Fall Break* (no classes)                      |
 W09         |                                                |
+M           |                                                | **[Vertex Cover Local Search Study](assignment_07.php)**
 T           | Logical Agents                                 |
 R           | Logical Agents                                 |
 W10         |                                                |

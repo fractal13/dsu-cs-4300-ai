@@ -21,8 +21,9 @@ install-on-helios:
 	make install-examples
 
 install-examples:
-	rm -f web/examples.examples
-	ln -s ../../$(EXAMPLE_REPO)/code web/examples.examples
+	@echo OK
+#	rm -f web/examples.examples
+#	ln -s ../../$(EXAMPLE_REPO)/code web/examples.examples
 
 
 

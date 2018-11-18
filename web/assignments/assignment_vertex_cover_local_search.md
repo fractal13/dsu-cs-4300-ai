@@ -26,7 +26,7 @@ Requirements
   5, 10, 20, 40, 80, etc.  Make several problems of each size to
   allow for statistical variation.
 - Tune the simulated annealing temperature parameters for problems
-  of size 80.  These are the config paramters start_temperature,
+  of size 80.  These are the config parameters start_temperature,
   min_temperature, and temperature_reduction.  Leaving resolution
   at 1000000 should be fine.
 - Document your findings for simulated annealing tuning.  

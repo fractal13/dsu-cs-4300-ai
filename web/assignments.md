@@ -11,14 +11,11 @@ Fall 2018 Assignments
 * Assignment 5: [Rubik's Cube Solver Optimization](assignment_05.php)
 * Assignment 6: [Vertex Cover Local Search](assignment_06.php)
 * Assignment 7: [Vertex Cover Local Search Study](assignment_07.php)
-* Assignment 8: [08](assignment_08.php)
-* Assignment 9: [09](assignment_09.php)
-* Assignment 10: [10](assignment_10.php)
-* Assignment 11: [11](assignment_11.php)
-* Assignment 12: [12](assignment_12.php)
-* Assignment 13: [13](assignment_13.php)
-* Assignment 14: [14](assignment_14.php)
-* Assignment 15: [15](assignment_15.php)
+* Assignment 8: [Ultimate Tic Tac Toe Minimax](assignment_08.php)
+* Assignment 9: [Ultimate Tic Tac Toe Alpha-Beta](assignment_09.php)
+* Assignment 10: [Ultimate Tic Tac Toe Evaluation](assignment_10.php)
+* Assignment 11: [Ultimate Tic Tac Toe Tournament](assignment_11.php)
+* Assignment 12: [Code Camp Participation](assignment_12.php)
 
 Class announcements may modify instructions or requirements 
 from those listed above.

@@ -1,1 +1,1 @@
-assignment_blank.md
+assignments/assignment_code_camp.md

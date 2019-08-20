@@ -4,7 +4,10 @@ CS 4300: Artificial Intelligence
 Fall 2019 Assignments
 -----------------------
 
-**Work in Progress.  Not fully updated yet.**
+* Assignment 0: [Rectangle Puzzle](assignment_000.php)
+
+**Work in Progress.  Not updated yet.**
+**Anything below here will likely change**
 
 * Assignment 1: [Rubik's Cube Class](assignment_01.php)
 * Assignment 2: [Rubik's Cube Action/State/Problem Classes](assignment_02.php)

@@ -5,14 +5,13 @@ Fall 2019 Schedule
 --------------------
 
 **Work in Progress.  Not fully updated yet.**
-
 Day         | Topic                                          | Work Due
 ------------|------------------------------------------------|---------
 W01         |                                                |
-T           | Introduction / Intelligent Agents / Rubik's Cube |
-R           | Intelligent Agents            (Chapter 2)      |
+T           | Introduction / Intelligent Agents              |
+R           | Intelligent Agents                             |
 W02         |                                                |
-M           |                                                | **[Rubik's Cube Class](assignment_01.php)**
+M           |                                                | **[Rectangle Puzzle](assignment_000.php)**
 T           | Solving Problems by Searching (Chapter 3)      |
 R           | Solving Problems by Searching (Chapter 3)      |
 W03         |                                                |
@@ -64,6 +63,6 @@ W16         |                                                |
 T           | Machine Learning                               |
 R           | Machine Learning                               |
 W17         | Final Exams                                    |
-T  Dec 11   | Final Exam 9:00 am - 10:50 am                  | **Final Exam**
+R  Dec 12   | Final Exam 9:00 am - 10:50 am                  | **Final Exam**
 
 Class announcements may modify schedule from that listed above.

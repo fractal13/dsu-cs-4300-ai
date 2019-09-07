@@ -1,0 +1,1 @@
+assignments/assignment_rubiks_search.md

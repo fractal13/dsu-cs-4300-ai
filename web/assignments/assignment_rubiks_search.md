@@ -98,7 +98,7 @@ Additional Information
 - Look at `README_CubeSolver.md` in the source directory 
   for more suggestions on the implementation of the required
   code.
-- [`verifier/verify_many.bash`] Runs depth limited searches for cubes
+- `verifier/verify_many.bash` Runs depth limited searches for cubes
   from 1 to 6 steps from solved.  Each search uses a depth
   limit appropriate for the optimal path length.
 - [Solve the Cube](https://solvethecube.com)

@@ -42,7 +42,7 @@ Required Functionality
   directory, if RubiksCubeSolver has been built.  It will attempt to
   solve 10 cubes of each difficulty from 1 to 6 steps from the solved.
 
-Output From `verify_man.bash`
+Output From `verify_many.bash`
 -----------------------------
 
 On a system from the lab:

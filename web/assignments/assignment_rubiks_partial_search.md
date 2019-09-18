@@ -173,7 +173,7 @@ heuristic?
 Research
 ---------
 
-Write a command script for that will attempt to solve a 2x2x2 section
+Write a command script for that will attempt to solve some 2x2x2 section
 of a cube configuration. The plan can follow any of several plans.  Here
 are some example plans:
 
@@ -181,9 +181,11 @@ are some example plans:
    solutions.  Leave the non-essential facelets as wildcards.  Search
    using this set of goal states.  The solution is a path to a 2x2x2 solved
    cube.  It doesn't matter which one.
+   
 2- Create a single goal state for one of the eight possible 2x2x2 solutions.
    Leave the non-essential facelets as wild cards. Search using this goal.
    The solution is a path to the 2x2x2 solve cube.
+   
 3- Create an intermediate goal for a solution towards a 2x2x2 solution.
    For example, instead of the goal being the whole white/red/green 2x2x2
    solved, it might be having the white/green and white/red edges placed.
@@ -195,7 +197,8 @@ are some example plans:
    up further, into many intermediate steps.  For this problem there are only
    4 cubies to put into place, so at most there would be 3 intermediate and 1 
    final goal.
-4- If you see a different approach consider it.
+   
+4- If you see a different approach consider using it instead.
 
 There is a set of 100 scrambled cubes linked below.  Use your command script
 to solve as many of them as possible.  Recommendations:

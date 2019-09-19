@@ -122,7 +122,8 @@ The allowed moves are stored in `AppData.move_set`, which is a
 `MoveSet` object.  To connect this information to the search
 process, implement `Problem::setAllowedMoves()` as described
 in the README, and use the moves in the `Problem::Actions()`
-method for searching.
+method for searching.  Remember to call `setAllowedMoves()`
+when you create a `Problem` object.
 
 There are some sequences of moves that are useful when
 solving the cube by hand.  For example Lars Petrus has named

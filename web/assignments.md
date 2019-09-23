@@ -8,6 +8,7 @@ Fall 2019 Assignments
 * Assignment 1: [Git Repository](assignment_001.php)
 * Assignment 2: [Rubik's Search](assignment_010.php)
 * Assignment 3: [Rubik's Partial Solution Search](assignment_011.php)
+* Assignment 4: [Rubik' sFull Solution Search](assignment_012.php)
 
 **Work in Progress.  Not updated yet.**
 **Anything below here will likely change**

@@ -136,6 +136,9 @@ The `AppConfig` code may look something like this:
       return static_cast< int >( mOptions.at( "heuristic" ) );
     }
 
+Be sure to call one of the heuristic set methods in the `AppConfig` constructor,
+to provide the default configuration.
+
 The `CubeSearch.cpp` code may look something like this:
 
     problem->setHeuristic( static_cast< Problem::HeuristicEnum >( data.config.heuristic( ) ) );

@@ -58,7 +58,7 @@ goal state.
     
     init goal \
         ***ww**** *g**g**** ****r**** ****b**** ****o**** ****y**** \
-        ****w**w* ****g**** *r**r**** ****b**** ****o**** ****y**** \
+        ****w**w* ****g**** *r**r**** ****b**** ****o**** ****y****
 
 As a side note, if the last character of a line is `\`, then the
 line input is continued on the next line.

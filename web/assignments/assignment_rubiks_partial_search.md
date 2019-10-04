@@ -238,6 +238,7 @@ Additional Information
 - [Solve the Cube](https://solvethecube.com)
 - [Speed Solving](https://www.speedsolving.com/wiki/index.php/Main_Page)
 - [scrambled_cubes.txt](assignments/scrambled_cubes.txt)
+- [Deep Heuristic-learning in the Rubik’s Cube Domain: an Experimental Evaluation](http://ceur-ws.org/Vol-1885/57.pdf)
 
 Passoff
 -------

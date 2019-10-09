@@ -42,6 +42,10 @@ This is the same as the previous assignment.
 Passoff
 -------
 
+The file `cs4300-code-ai-agents/prog/RubiksCube/solver_location.txt` must
+contain the path to your main solver command script, relative to the root
+of the repository.
+
 Submit your source code by committing and pushing the repository.
 Submit your report to Canvas in the previous assignment.
 

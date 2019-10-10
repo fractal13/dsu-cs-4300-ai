@@ -10,6 +10,10 @@ Fall 2019 Assignments
 * Assignment 3: [Rubik's Partial Solution Search](assignment_011.php)
 * Assignment 4: [Rubik's Full Solution Search](assignment_012.php)
 * Assignment 5: [Rubik's Search Optimization](assignment_013.php)
+* Assignment 6: [Jetan Minimax](assignment_020.php)
+* Assignment 7: [Jetan Alpha-Beta](assignment_021.php)
+* Assignment 8: [Jetan Evaluation](assignment_022.php)
+* Assignment 9: [Jetan Tournament](assignment_023.php)
 
 **Work in Progress.  Not updated yet.**
 **Anything below here will likely change**

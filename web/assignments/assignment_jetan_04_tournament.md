@@ -12,6 +12,11 @@ See `cs4300-code-ai-agents/prog/Jetan/README.md` for more information.
 Set the contents of `cs4300-code-ai-agents/prog/Jetan/jetan_agent_arguments.txt`
 to be the command line arguments needed to run your best Jetan agent.
 
+Grading
+-------
+
+Performance measure will be given here soon.
+
 Passoff
 -------
 

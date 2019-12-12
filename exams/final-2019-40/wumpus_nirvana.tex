@@ -1,0 +1,44 @@
+\begin{problem}{25}
+
+  The tribe of \emph{Supmuw} considers being eaten by a wumpus to be Nirvana,
+  the highest obtainable state of existence.  (Being eaten by the wumpus gives
+  about the same experience as listening to grunge music.)
+  If the wumpus is in the same location as a pit, then the adventurer would
+  fall into the pit before being eaten.
+  The adventurer must be sure that the wumpus isn't with a pit before walking
+  into the wumpus' location.  Nirvana is only reached if the agent
+  yells ``Cowabunga Dude!'' in the last action before moving forward into the
+  cell that contains the wumpus and no pit.
+  
+  \vspace{.1in}
+  \textbf{Task}
+
+  Modify your wumpus agent to seek Nirvana.
+
+  \begin{itemize}
+    \item You will want to able to ask the knowledge base if Nirvana is 
+      achievable in a given cell
+      (yes wumpus, no pit).
+    \item Add a method to the agent the checks if the cell that
+      is forward of the agent is Nirvana achievable.  If it is,
+      then remove any contents from the plan queue, and push
+      a YELL action and a FORWARD action, then return true.
+      If the forward cell is not Nirvana achievable, then
+      do nothing and return false.
+    \item Add to the if/else if chain in \texttt{ChooseAction()}
+      after \texttt{if(gold > 0)} and before \texttt{else if(kb.AskGold(x,y))}
+      an \texttt{else if} that calls your new method.  If it returns true,
+      pop an action from the queue.
+  \end{itemize}
+
+  Run your agent with this enabled on at least 100 worlds with the nirvana option
+  turned on in the server: \texttt{--nirvana 1}.  The server will reward the
+  agent with 10000 points if Nirvana is obtained by yelling followed by being
+  eaten.
+
+  Save the server error and log files, and submit them to the Canvas task.
+  Use git to push your code.
+
+\end{problem}
+
+

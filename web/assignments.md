@@ -1,6 +1,14 @@
 CS 4300: Artificial Intelligence
 ===============================================
 
+Fall 2020 Assignments
+-----------------------
+
+* Assignment 0: [Rectangle Puzzle](assignment_000.php)
+* Assignment 1: [Krypto](assignment_002.php)
+
+
+
 Fall 2019 Assignments
 -----------------------
 

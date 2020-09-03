@@ -1,0 +1,35 @@
+\section*{Jetan Evaluation Function (50 Points)}
+
+As part of the Jetan project, we discussed several
+ideas for elements of evaluation functions.
+You were required to implement a couple of
+evaluation functions as part of the assignments.
+Here's an idea for an additional heuristic.
+
+Being in the middle of the board could be advantageous, as more moves
+are available to the pieces in the middle.  We'll encourage pieces
+to move to the middle by assigning value to the location of the
+piece.  The value will be 12, minus the Manhattan distance
+from the center of the board (4.5,4.5) to the piece's location.
+For example,  a piece located at position (2,9) will have
+a value of 12 - (abs(2-4.5)+abs(9-4.5)) = 12 - (2.5+4.5) = 5.
+
+So, the evaluation function will calculate this value for your
+pieces, and subtract from it this value for your opponent's pieces.
+  
+\subsection*{Task}
+
+Add this evaluation function to your agent.
+
+Play your agent against itself where both agents use this evaluation function.
+Play your agent against itself where one agent uses this evaluation function,
+and the other uses your normal evaluation function.  That's a total of 2 games.
+
+Write a brief report with the results of the games, and your observation on the
+motion of the pieces under this evaluation function. The report must
+also include instructions on running your agent with this evaluation function.
+Submit the report to the Canvas task.
+
+Be sure that your code with this evaluation function is pushed to github.
+
+

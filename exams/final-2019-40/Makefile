@@ -12,6 +12,8 @@ REAL_FILES := \
 	$(BASE)-metadata.tex \
 	$(BASE)-rules.tex \
 	\
+	rubiks_heuristic.tex rubiks_dot.tex rubiks_algorithms.tex \
+	jetan_quiescence.tex jetan_evaluation.tex \
 	wumpus_probability.tex wumpus_nirvana.tex
 
 $(BASE).pdf: \

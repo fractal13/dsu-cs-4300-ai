@@ -6,7 +6,11 @@ Fall 2020 Assignments
 
 * Assignment 0: [Rectangle Puzzle](assignment_000.php)
 * Assignment 1: [Krypto](assignment_002.php)
+* Assignment 2: [Git Repository](assignment_001.php)
 
+
+**Work in Progress.  Not updated yet.**
+**Anything below here will likely change**
 
 
 Fall 2019 Assignments
@@ -23,8 +27,6 @@ Fall 2019 Assignments
 * Assignment 8: [Jetan Evaluation](assignment_022.php)
 * Assignment 9: [Jetan Tournament](assignment_023.php)
 
-**Work in Progress.  Not updated yet.**
-**Anything below here will likely change**
 
 * Assignment 1: [Rubik's Cube Class](assignment_01.php)
 * Assignment 2: [Rubik's Cube Action/State/Problem Classes](assignment_02.php)

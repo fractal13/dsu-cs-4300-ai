@@ -7,6 +7,7 @@ Fall 2020 Assignments
 * Assignment 0: [Rectangle Puzzle](assignment_000.php)
 * Assignment 1: [Krypto](assignment_002.php)
 * Assignment 2: [Git Repository](assignment_001.php)
+* Assignment 3: [Rubik's Search C++](assignment_010.php)
 
 
 **Work in Progress.  Not updated yet.**

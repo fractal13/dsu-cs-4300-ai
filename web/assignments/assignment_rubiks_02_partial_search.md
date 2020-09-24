@@ -30,7 +30,7 @@ Goal States
 
 The user interface allows the `init goal` command to configure
 a vector of cubes in `AppData.goal_cubes`.  You can look in
-CubeSolver.cpp for `data.goal_cubes` for all of the places it
+`CubeSolver.cpp` for `data.goal_cubes` for all of the places it
 is used in the user interface.
 
 The intention is for the `search_init()` function to use this
@@ -93,7 +93,7 @@ you could use the full cube description.  For example:
 
     init goal white_green_cubie
 
-Using these configurations of goal states, will allow the user
+Using these configurations of goal states will allow the user
 to search for partial completion solutions to the cube with
 flexibility.
 
@@ -121,7 +121,7 @@ To see the current list of allowed moves use `show moves`.
 The allowed moves are stored in `AppData.move_set`, which is a 
 `MoveSet` object.  To connect this information to the search
 process, implement `Problem::setAllowedMoves()` as described
-in the README, and use the moves in the `Problem::Actions()`
+in `README_CubeSolver.md`, and use the moves in the `Problem::Actions()`
 method for searching.  Remember to call `setAllowedMoves()`
 when you create a `Problem` object.
 
@@ -222,7 +222,7 @@ to solve as many of them as possible.  Recommendations:
     run your_solver.cmd
 
   for each of the cubes in the scrambled cubes file.  In short, automate
-  anything you can.  Use your time and effort in other ways than copy-paste.
+  anything you can.  Use your time and effort in other ways than copy-paste-edit.
 
 - Produce a report, that includes your command script, and statistics on
   how many of the scrambled cubes the script was able to solve, and how 

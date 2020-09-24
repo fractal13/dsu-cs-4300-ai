@@ -8,6 +8,7 @@ Fall 2020 Assignments
 * Assignment 1: [Krypto](assignment_002.php)
 * Assignment 2: [Git Repository](assignment_001.php)
 * Assignment 3: [Rubik's Search C++](assignment_010.php)
+* Assignment 4: [Rubik's Partial Solution Search C++/Script](assignment_011.php)
 
 
 **Work in Progress.  Not updated yet.**

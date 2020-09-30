@@ -224,7 +224,7 @@ to solve as many of them as possible.  Recommendations:
   for each of the cubes in the scrambled cubes file.  In short, automate
   anything you can.  Use your time and effort in other ways than copy-paste-edit.
 
-- Produce a report, that includes your command script, and statistics on
+- Produce a report, that includes the location of your command script, and statistics on
   how many of the scrambled cubes the script was able to solve, and how 
   many it was not able to solve.  For the solved cubes, what was the average
   number of nodes generated?  (If you take the intermediate goal approach, this

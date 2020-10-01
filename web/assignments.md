@@ -9,6 +9,7 @@ Fall 2020 Assignments
 * Assignment 2: [Git Repository](assignment_001.php)
 * Assignment 3: [Rubik's Search C++](assignment_010.php)
 * Assignment 4: [Rubik's Partial Solution Search C++/Script](assignment_011.php)
+* Assignment 5: [Rubik's Full Solution Search](assignment_012.php)
 
 
 **Work in Progress.  Not updated yet.**

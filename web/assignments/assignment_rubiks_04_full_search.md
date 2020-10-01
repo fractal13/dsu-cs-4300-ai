@@ -6,7 +6,7 @@ Assignment: Rubik's Cube Search III
 
 This assignment requires writing additional code
 in the Rubik's Cube search program. It assumes
-that the work for the previous assignment has
+that the work for the previous assignments have
 been successfully completed.
 
 The assignment also requires creation of script
@@ -54,7 +54,7 @@ and
 `PerformanceMeasure = min( PerformaceMeasure1, PerformaceMeasure2 )`
 
 Your agent is attempting to minimize the average performance measure.
-This will be measured by measuring the above parameters as the script
+This will be evaluated by measuring the above parameters as the script
 attempts to solve a collection of scrambled cubes.
 
 For the `Time` parameter to be fair, grading will occur on one of the
@@ -160,11 +160,12 @@ Cube Solving Script
 -----------------------
 
 Create a `RubiksCubeSolver` command script that assumes there
-is cube already configured, then executes commands to solve
-the cube.  It is expected that there will be multiple `search`
-commands executed, and that `config apply_solution 1` will be
-in effect.  Thus, the result of the script will be solving the
-cube in a step-by-step fashion, until it is completely solved.
+is cube already configured (with `init cube`), then executes 
+commands to solve the cube.  It is expected that there will be 
+multiple `search` commands executed, and that `config apply_solution 1` 
+will be in effect.  Thus, the result of the script will be 
+solving the cube in a step-by-step fashion, until it is 
+completely solved.
 
 ## Scripting Advice I (Cube Solving Script)
 
@@ -212,7 +213,7 @@ Report on Performance
 
 Write a report that includes the following information:
 
-1- Description of an improved heuristic.
+1- Description of the improved heuristic.
 2- Statistics on the performance of the new heuristic vs the
    Facelets/20 heuristic.  Use the level-6 cube idea mentioned above.
 3- Description of the cube solving technique used in the script.
@@ -230,7 +231,7 @@ Submit the report as a PDF to Canvas.
 ## Advice (Report)
 
 A grading script has been added to `cs4300-code-ai-agents/prog/RubiksCube/grader/`.
-Do a `git pull` to download it.  The `Makefile` has an example of how to use it.
+The `Makefile` has an example of how to use it.
 It is assumed that you will symbolic link your solver into the `grader` directory,
 store your solver script(s) there and run from there.
 
@@ -243,6 +244,10 @@ Additional Information
 
 Passoff
 -------
+
+The file `cs4300-code-ai-agents/prog/RubiksCube/solver_location.txt` must
+contain the path to your main solver command script, relative to the root
+of the repository.
 
 Submit your source code by committing and pushing the repository.
 Submit your report to Canvas.

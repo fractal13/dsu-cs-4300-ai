@@ -38,6 +38,11 @@ This is the same as the previous assignment.
 - http://rubikscube.info/
 - https://visihow.com/Solve_Rubik%27s_Cube
 
+Report
+-------------------
+
+The report for this assignment should explain changes added for this
+assignment.  It should also give a performance measure prediction.
 
 Passoff
 -------

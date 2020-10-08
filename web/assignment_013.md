@@ -1,1 +1,1 @@
-assignments/assignment_rubiks_search_optimization.md
+assignments/assignment_rubiks_06_search_optimization.md

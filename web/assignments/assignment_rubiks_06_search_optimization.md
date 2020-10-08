@@ -1,11 +1,11 @@
 CS 4300: Artificial Intelligence
 ===============================================
 
-Assignment: Rubik's Search Optimization
----------------------------------------
+Assignment: Rubik's Cube Search IV (Optimization)
+------------------------------------------------
 
 This assignment gives you another week to get your
-Rubik's cube to the level you desire for your grade.
+Rubik's cube solver to the level you desire for your grade.
 You may add improved heuristics, optimize your
 solving plan, or create different plans, to optimize
 the performance measure of your system.

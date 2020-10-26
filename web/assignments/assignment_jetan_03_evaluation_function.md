@@ -13,6 +13,11 @@ See `cs4300-code-ai-agents/prog/Jetan/README.md` for more information.
 Set the contents of `cs4300-code-ai-agents/prog/Jetan/jetan_agent_arguments.txt`
 to be the command line arguments needed to run your best Jetan agent.
 
+Report
+-------------------
+
+The report for this assignment should explain the three evaluation functions,
+and the agent's performance with each of the functions.
 
 Grading
 -------
@@ -24,3 +29,4 @@ Passoff
 -------
 
 Submit your source code by committing and pushing the repository.
+Submit your report to Canvas.

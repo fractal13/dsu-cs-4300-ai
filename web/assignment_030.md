@@ -1,0 +1,1 @@
+assignments/assignment_wumpus_01_gold.md

@@ -15,8 +15,8 @@ Fall 2020 Assignments
 * Assignment 8: [Jetan Alpha-Beta](assignment_021.php)
 * Assignment 9: [Jetan Evaluation](assignment_022.php)
 * Assignment 10: [Jetan Tournament](assignment_023.php)
-
-**Work in Progress.  Not Complete yet.**
+* Assignment 11: [Wumpus Gold](assignment_030.php)
+* Assignment 12: [Wumpus Improvements](assignment_031.php)
 
 Class announcements may modify instructions or requirements 
 from those listed above.

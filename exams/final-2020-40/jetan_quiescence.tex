@@ -1,0 +1,34 @@
+\section*{Jetan Quiescence Search (50 Points)}
+
+Quiescence search is an extension of search used
+when the cut-off depth has been reached, but the board
+is in a turbulent state.  We'll define turbulent to
+be if either princess is under attack. Because it may
+take many levels for the princess attack to be resolved,
+we don't want it to go on for unlimited levels.  So, we'll
+implement the quiescence search with a depth limit of
+its own.
+  
+\subsection*{Task}
+
+In the alpha-beta search agent, add a pair of Min/Max
+methods to be used for quiescence search.  The cut-off
+for these will be if the game is over, or the board
+has become quiet (princess no longer under attack), or
+if the quiescence depth has been reached.
+
+The normal Min/Max methods will need to be modified to
+call the correct quiescence method if the board is
+not quiet when max depth is reached.
+
+Run your agent against itself.  One instance with quiescence
+search and one without.  Use the same max depth for both,
+and give a quiescence depth of 2 for the quiescence agent.
+Play at least 4 games (2 in each direction).
+
+Write a brief report on the results.  Include instructions
+for using quiescence search with your agent in the report.
+Submit the report to Canvas.
+
+Be sure to push your code to github.
+

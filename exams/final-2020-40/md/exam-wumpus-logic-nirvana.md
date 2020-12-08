@@ -26,9 +26,9 @@ Modify your wumpus agent to seek Nirvana.
   action, then return true.
   If the forward cell is not Nirvana achievable, then
   do nothing and return false.
-- Add to the `if/else` chain in `ChooseAction()`
-  `else if(!plan.empty())` and `else if(ForwardIsSafe())`
-  `else if` that calls your new method.  If it returns true,
+- Add to the `if/else` chain in `ChooseAction()`, after the
+  `else if(!plan.empty())` and before the `else if(ForwardIsSafe())`,
+  an `else if` that calls your new method.  If it returns true,
   pop an action from the queue.
 
 Run your agent with this feature enabled on at least 100 worlds with the nirvana option

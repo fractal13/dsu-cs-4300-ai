@@ -35,7 +35,7 @@ Complete 1 of the following.
 - [Material Evaluation](exam-jetan-evaluation-material.php)
 
 
-Wumpus Group (25 points)
+Wumpus Group
 -----------------------------
 
 Complete 1 of the following.

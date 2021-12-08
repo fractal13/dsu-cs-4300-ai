@@ -4,10 +4,10 @@ Fall 2021 - CS 4300 - Practical Exam
 Exam Time
 ---------
 
-This exam will be open from 7:00 am to 9:50 am, on Wednesday, Dec 8, 2021.
+This exam will be open from 7:00 am to 8:50 am, on Wednesday, Dec 8, 2021.
 Solutions must be committed and pushed to the appropriate git repositories.
 
-Any push that occurs after 9:55 am will not be graded.
+Any push that occurs after 8:55 am will not be graded.
 
 Exam Rules
 ----------

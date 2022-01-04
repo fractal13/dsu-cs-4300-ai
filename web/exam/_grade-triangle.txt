@@ -1,0 +1,125 @@
+Mark Israel Abraham Triangle
+-------------------
+
+Good job.
+
+
+Dillon Curtis Anderson Triangle
+----------------------
+
+Good job.
+
+
+Kirk Baguley Triangle
+------------
+
+Good job.
+
+
+Joseph Anthony Britt Triangle
+--------------------
+
+Good job.
+
+Lance Condie Triangle
+------------
+
+Local search solves none.
+Apparently no classic search.
+
+
+Jessica Kelly Cserepes Triangle
+----------------------
+
+No work during exam.
+
+
+Samantha A Esplin Triangle
+-----------------
+
+Good job.
+
+
+LangHui HE Triangle
+----------
+
+4/5 solved.
+No sign of classic search algorithm.
+
+
+Slade William Hirschi Triangle
+---------------------
+
+You could have printed the results from your program, then copy/pasted it into the BILL.txt
+Missing the mode: "w" in the open statement.
+Not solving all puzzles.
+
+
+Melanie K Lent Triangle
+--------------
+
+Am I to understand that the scores are not 0 so the puzzles are not solved?
+
+
+Jason David Loosle Triangle
+------------------
+
+Tried but didn't solve any exam puzzles.
+No sign of classic search implementation.
+
+
+Damen Maughan Triangle
+-------------
+
+Good job.
+
+
+Micah Brian Morgan Triangle
+------------------
+
+Good job.
+
+
+Travis Morwood Triangle
+--------------
+
+Good job.
+
+
+Dawson P Nielson Triangle
+----------------
+
+No work during the exam.
+
+
+Hunter D. Nielson Triangle
+-----------------
+
+No work during the exam.
+
+
+Marcos Ramos-Gutierrez Triangle
+----------------------
+
+No work during the exam.
+
+
+Derek Burch Sneddon Triangle
+-------------------
+
+No work during the exam.
+
+
+Taft Allan Thompson Triangle
+-------------------
+
+Solution to 1/5 puzzles.
+No run instructions.
+
+
+Rebecca Winn Triangle
+-------------
+
+Local search solves 1 of 5.
+Apparently didn't try classic search, or it doesn't work.
+

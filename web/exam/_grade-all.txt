@@ -1,0 +1,448 @@
+Mark Israel Abraham TSP
+-------------------
+
+Good job.
+
+
+Mark Israel Abraham Team-Draft
+-------------------
+
+Good job.
+
+
+Mark Israel Abraham Triangle
+-------------------
+
+Good job.
+
+
+Score: 600
+
+
+Dillon Curtis Anderson TSP
+----------------------
+
+Good job.  
+
+
+Dillon Curtis Anderson Team-Draft
+----------------------
+
+Good job.
+
+
+Dillon Curtis Anderson Team-Draft
+----------------------
+
+Good job.
+
+
+Score: 600
+
+
+Kirk Baguley TSP
+------------
+
+Something must be wrong with the utility function.  Some of
+the cycle costs are too low.
+        cost *= -1
+Is indented too far.
+
+
+
+Kirk Baguley Team-Draft
+------------
+
+Good job.
+
+
+Kirk Baguley Triangle
+------------
+
+Good job.
+
+
+Score: 600
+
+
+Joseph Anthony Britt TSP
+--------------------
+
+Good job.
+
+
+Joseph Anthony Britt Team-Draft
+--------------------
+
+Good job.
+
+
+Joseph Anthony Britt Triangle
+--------------------
+
+Good job.
+
+
+Score: 600
+
+
+Lance Condie TSP
+------------
+
+The utility function must be broken.  There are not cycles
+with costs below 4500.  Looks like it's not considering
+closing the cycle.
+
+
+Lance Condie Team-Draft
+------------
+
+Good job.
+
+
+Lance Condie Triangle
+------------
+
+Local search solves none.
+Apparently no classic search.
+
+
+Score: 500
+
+Jessica Kelly Cserepes TSP
+----------------------
+
+No work during exam.
+
+
+Jessica Kelly Cserepes Team-Draft
+----------------------
+
+No work during the exam.
+
+
+Jessica Kelly Cserepes Triangle
+----------------------
+
+No work during exam.
+
+
+Jessica Kelly Cserepes Empire
+----------------------
+
+Close to working during the exam.
+
+
+Score: 500
+
+
+Samantha A Esplin TSP
+-----------------
+
+1/5 solutions in FRODO.txt
+
+
+Samantha A Esplin Team-Draft
+-----------------
+
+Only 1 tournament's teams displayed in PIKACHU.txt.
+Utility scores are a little lower than expected.
+
+
+Samantha A Esplin Triangle
+-----------------
+
+Good job.
+
+
+Score: 500
+
+
+LangHui HE TSP
+----------
+
+Only 1 file solved in FRODO.txt.
+
+
+LangHui HE Team-Draft
+----------
+
+I don't see the utility scores in PIKACHU.txt
+After running your program, the utility scores are not believable.
+
+LangHui HE Triangle
+----------
+
+4/5 solved.
+No sign of classic search algorithm.
+
+
+Score: 450
+
+
+Slade William Hirschi TSP
+---------------------
+
+The model is not storing the full matrix of edge costs.
+There is no randomness to the restarts, so you will get the
+same starting point every hillClimb().
+
+
+Slade William Hirschi Team-Draft
+---------------------
+
+I'm not seeing teams grouped or utility scores for them in PIKACHU.txt.
+
+            if score > bestScore and score < bestScore:
+                # This ^^^^^^^^^ looks wrong.
+                secondBestScore = score
+
+Slade William Hirschi Triangle
+---------------------
+
+You could have printed the results from your program, then copy/pasted it into the BILL.txt
+Missing the mode: "w" in the open statement.
+Not solving all puzzles.
+
+Score: 450
+
+Melanie K Lent TSP
+--------------
+
+Not finding small cycles (< 5000 cost).
+
+
+Melanie K Lent Team-Draft
+--------------
+
+Team scores are not very good.
+
+
+Melanie K Lent Triangle
+--------------
+
+Am I to understand that the scores are not 0 so the puzzles are not solved?
+
+
+Score: 450
+
+
+Jason David Loosle TSP
+------------------
+
+Good job.
+
+
+Jason David Loosle Team-Draft
+------------------
+
+Why do your code and Derek's code share character-wise duplications?
+I see that both the assignment utility and the exam utility implementations are missing the
+min(score vs opponent pokemons) element.
+
+Jason David Loosle Triangle
+------------------
+
+Tried but didn't solve any exam puzzles.
+No sign of classic search implementation.
+
+Score: 450
+
+
+Damen Maughan TSP
+-------------
+
+Good job.
+
+
+Damen Maughan Team-Draft
+-------------
+
+Good job.
+
+Damen Maughan Triangle
+-------------
+
+Good job.
+
+Score: 600
+
+
+Micah Brian Morgan TSP
+------------------
+
+Good job.
+
+
+Micah Brian Morgan Team-Draft
+------------------
+
+            best = (currentDCOST[1] + currentDCOST[0]) / 2
+            if best < worstScore:
+                worstScore = currentDCOST[1]
+                # Shouldn't this be worstScore = best?
+
+
+Micah Brian Morgan Triangle
+------------------
+
+Good job.
+
+Score: 600
+
+
+Travis Morwood TSP
+--------------
+
+You really should use a main() function to control programs.
+Cycle costs not displayed.
+
+Travis Morwood Team-Draft
+--------------
+
+The utility function is missing the min(all enemy scores) piece.
+"For each pokemon allowed in the tournament, find the two team member
+ pokemon with the best scores vs the tournament pokemon. Take the
+ average of these scores. This is the team’s score vs that one pokemon.
+ Find the minimum of these scores. That is the team’s utility."
+Most likely the overflow problem is from the math.exp() function when
+the temperature gets too small.
+
+Travis Morwood Triangle
+--------------
+
+Good job.
+
+Score: 500
+
+Dawson P Nielson TSP
+----------------
+
+Good job.
+
+
+Dawson P Nielson Team-Draft
+----------------
+
+Team scores are *very* high.  Unbelievably high.
+The utility function is missing the min(all enemy scores) piece.
+"For each pokemon allowed in the tournament, find the two team member
+ pokemon with the best scores vs the tournament pokemon. Take the
+ average of these scores. This is the team’s score vs that one pokemon.
+ Find the minimum of these scores. That is the team’s utility."
+ 
+Dawson P Nielson Triangle
+----------------
+
+No work during the exam.
+
+
+Score: 400
+
+Hunter D. Nielson TSP
+-----------------
+
+Not all solutions have < 5000 costs.
+
+Hunter D. Nielson Team-Draft
+-----------------
+
+I don't understand how the utility scores are working.  There is no
+/2 in the exam utility function, yet the scores are in the mid-low
+500s.
+
+Hunter D. Nielson Triangle
+-----------------
+
+No work during the exam.
+
+
+Score: 400
+
+
+Marcos Ramos-Gutierrez TSP
+----------------------
+
+4/5 solutions provided in FRODO.txt
+
+
+Marcos Ramos-Gutierrez Team-Draft
+----------------------
+
+Only 1 tournament's teams are in the PIKACHU.txt file.
+
+
+Marcos Ramos-Gutierrez Triangle
+----------------------
+
+No work during the exam.
+
+
+Score: 400
+
+
+Derek Burch Sneddon TSP
+-------------------
+
+Only 1 file solved in FRODO.txt.
+Cycle cost not shown.
+
+
+Derek Burch Sneddon Team-Draft
+-------------------
+
+I see that both the assignment utility and the exam utility implementations are missing the
+min(score vs opponent pokemons) element.  That explains the exceptionally high scores
+found.
+Why do your code and Jason's code share character-wise duplications?
+
+Derek Burch Sneddon Triangle
+-------------------
+
+No work during the exam.
+
+
+Score: 400
+
+
+Taft Allan Thompson TSP
+-------------------
+
+Works well for smaller city collections (10, 15).  Not so good for
+larger ones (20, 35, 30)
+
+Taft Allan Thompson Team-Draft
+-------------------
+
+Good job.
+
+Taft Allan Thompson Triangle
+-------------------
+
+Solution to 1/5 puzzles.
+No run instructions.
+
+Score: 500
+
+Rebecca Winn TSP
+-------------
+
+Good job.
+
+Rebecca Winn Team-Draft
+-------------
+
+Only 1 tournament's teams were saved in PIKACHU.txt.
+Utility scores appear to just be the max value, not the average to the 2 best values.
+The utilities in PIKACHU.txt are not very good, given the utility function used.
+
+Rebecca Winn Triangle
+-------------
+
+Local search solves 1 of 5.
+Apparently didn't try classic search, or it doesn't work.
+
+Score: 500
+
+
+

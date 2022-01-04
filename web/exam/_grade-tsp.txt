@@ -1,0 +1,149 @@
+Mark Israel Abraham TSP
+-------------------
+
+Good job.
+
+
+Dillon Curtis Anderson TSP
+----------------------
+
+Good job.  
+
+
+Kirk Baguley TSP
+------------
+
+Something must be wrong with the utility function.  Some of
+the cycle costs are too low.
+        cost *= -1
+Is indented too far.
+
+
+
+Joseph Anthony Britt TSP
+--------------------
+
+Good job.
+
+
+Lance Condie TSP
+------------
+
+The utility function must be broken.  There are not cycles
+with costs below 4500.  Looks like it's not considering
+closing the cycle.
+
+
+
+Jessica Kelly Cserepes TSP
+----------------------
+
+No work during exam.
+
+
+Samantha A Esplin TSP
+-----------------
+
+1/5 solutions in FRODO.txt
+
+
+LangHui HE TSP
+----------
+
+Only 1 file solved in FRODO.txt.
+
+
+
+Slade William Hirschi TSP
+---------------------
+
+The model is not storing the full matrix of edge costs.
+There is no randomness to the restarts, so you will get the
+same starting point every hillClimb().
+
+
+
+Melanie K Lent TSP
+--------------
+
+Not finding small cycles (< 5000 cost).
+
+
+Jason David Loosle TSP
+------------------
+
+Good job.
+
+
+Damen Maughan TSP
+-------------
+
+Good job.
+
+
+Micah Brian Morgan TSP
+------------------
+
+Good job.
+
+
+Travis Morwood TSP
+--------------
+
+You really should use a main() function to control programs.
+Cycle costs not displayed.
+
+
+Dawson P Nielson TSP
+----------------
+
+Good job.
+
+
+Hunter D. Nielson TSP
+-----------------
+
+Not all solutions have < 5000 costs.
+
+
+Marcos Ramos-Gutierrez TSP
+----------------------
+
+4/5 solutions provided in FRODO.txt
+
+
+Derek Burch Sneddon TSP
+-------------------
+
+Only 1 file solved in FRODO.txt.
+Cycle cost not shown.
+
+
+Taft Allan Thompson TSP
+-------------------
+
+Works well for smaller city collections (10, 15).  Not so good for
+larger ones (20, 35, 30)
+
+Rebecca Winn TSP
+-------------
+
+Good job.
+
+
+
+filename:  exam-cities/middle-earth10 
+ -4500 6 3 2 4 0 5 9 7 8 1
+
+filename:  exam-cities/middle-earth15 
+ -4606 14 3 10 6 5 2 7 8 4 9 1 13 0 11 12
+
+filename:  exam-cities/middle-earth20 
+ -4564 11 10 17 9 2 3 4 15 8 13 1 12 0 18 7 14 19 16 5 6
+
+filename:  exam-cities/middle-earth25 
+ -4523 2 9 19 11 13 22 10 5 14 21 12 4 16 15 18 23 24 7 1 6 8 3 0 20 17
+
+filename:  exam-cities/middle-earth30 
+ -4576 25 6 5 0 22 13 17 7 24 18 12 14 26 20 15 16 8 2 28 27 9 29 19 1 4 10 23 21 3 11
+

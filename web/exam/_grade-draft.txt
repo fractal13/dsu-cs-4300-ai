@@ -1,0 +1,150 @@
+Mark Israel Abraham Team-Draft
+-------------------
+
+Good job.
+
+
+Dillon Curtis Anderson Team-Draft
+----------------------
+
+Good job.
+
+
+Kirk Baguley Team-Draft
+------------
+
+Good job.
+
+
+Joseph Anthony Britt Team-Draft
+--------------------
+
+Good job.
+
+
+Lance Condie Team-Draft
+------------
+
+Good job.
+
+
+Jessica Kelly Cserepes Team-Draft
+----------------------
+
+No work during the exam.
+
+
+Samantha A Esplin Team-Draft
+-----------------
+
+Only 1 tournament's teams displayed in PIKACHU.txt.
+Utility scores are a little lower than expected.
+
+
+LangHui HE Team-Draft
+----------
+
+I don't see the utility scores in PIKACHU.txt
+After running your program, the utility scores are not believable.
+
+
+Slade William Hirschi Team-Draft
+---------------------
+
+I'm not seeing teams grouped or utility scores for them in PIKACHU.txt.
+
+            if score > bestScore and score < bestScore:
+                # This ^^^^^^^^^ looks wrong.
+                secondBestScore = score
+
+
+Melanie K Lent Team-Draft
+--------------
+
+Team scores are not very good.
+
+
+Jason David Loosle Team-Draft
+------------------
+
+Why do your code and Derek's code share character-wise duplications?
+I see that both the assignment utility and the exam utility implementations are missing the
+min(score vs opponent pokemons) element.
+
+
+Damen Maughan Team-Draft
+-------------
+
+Good job.
+
+
+Micah Brian Morgan Team-Draft
+------------------
+
+            best = (currentDCOST[1] + currentDCOST[0]) / 2
+            if best < worstScore:
+                worstScore = currentDCOST[1]
+                # Shouldn't this be worstScore = best?
+
+
+Travis Morwood Team-Draft
+--------------
+
+The utility function is missing the min(all enemy scores) piece.
+"For each pokemon allowed in the tournament, find the two team member
+ pokemon with the best scores vs the tournament pokemon. Take the
+ average of these scores. This is the team’s score vs that one pokemon.
+ Find the minimum of these scores. That is the team’s utility."
+Most likely the overflow problem is from the math.exp() function when
+the temperature gets too small.
+
+
+Dawson P Nielson Team-Draft
+----------------
+
+Team scores are *very* high.  Unbelievably high.
+The utility function is missing the min(all enemy scores) piece.
+"For each pokemon allowed in the tournament, find the two team member
+ pokemon with the best scores vs the tournament pokemon. Take the
+ average of these scores. This is the team’s score vs that one pokemon.
+ Find the minimum of these scores. That is the team’s utility."
+ 
+
+Hunter D. Nielson Team-Draft
+-----------------
+
+I don't understand how the utility scores are working.  There is no
+/2 in the exam utility function, yet the scores are in the mid-low
+500s.
+
+
+Marcos Ramos-Gutierrez Team-Draft
+----------------------
+
+Only 1 tournament's teams are in the PIKACHU.txt file.
+
+
+
+Derek Burch Sneddon Team-Draft
+-------------------
+
+I see that both the assignment utility and the exam utility implementations are missing the
+min(score vs opponent pokemons) element.  That explains the exceptionally high scores
+found.
+Why do your code and Jason's code share character-wise duplications?
+
+
+Taft Allan Thompson Team-Draft
+-------------------
+
+Good job.
+
+Rebecca Winn Team-Draft
+-------------
+
+Only 1 tournament's teams were saved in PIKACHU.txt.
+Utility scores appear to just be the max value, not the average to the 2 best values.
+The utilities in PIKACHU.txt are not very good, given the utility function used.
+
+
+

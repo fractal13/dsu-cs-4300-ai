@@ -4,7 +4,6 @@ CS 4300: Artificial Intelligence
 Fall 2022 Schedule
 --------------------
 
-Class announcements may modify schedule from that listed above.
 Day         | Topic                                         | Work Due
 ------------|-----------------------------------------------|---------
 Aug 22      | Week 1                                        |

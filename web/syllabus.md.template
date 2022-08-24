@@ -3,19 +3,17 @@ syllabus-cgl.txt
 CS 4300: Artificial Intelligence 
 ===============================================
 
-Fall 2019 Syllabus
+Fall 2022 Syllabus
 --------------------
 
 ### Course Description
 
-Required of students pursuing a Computer Science degree or emphasis.  
-Introduces the broad field of artificial intelligence in computer
-software followed by specific applications in computer gaming
-strategies.  Students will complete programming assignments.
+Required of students pursuing a Computer Science degree or emphasis. Introduces the broad field of artificial intelligence in computer software followed by specific applications in computer gaming strategies. Students will complete programming assignments. **COURSE LEARNING OUTCOMES (CLOs) At the successful conclusion of this course, students will be able to: 1. Construct solutions for a range of problems using search algorithms. 2. Infer problems that can be solved using propositional logic and build appropriate solutions. 3. Design and implement Bayesian networks. 4. Integrate third-party libraries into solutions for large software projects. 5. Collaborate to solve large and complex problems. Course fee required. Prerequisites: CS 2420 (Grade C or higher); AND CS 2810 (Grade C or higher); AND CS 3005 (Grade C or higher). FA.
+
 
 ### Prerequisites
 
-CS 2420, CS 2810 and CS 3005 all with a C- or better.
+CS 2420, CS 2810 and CS 3005 all with a C or better.
 
 
 ### Course fees
@@ -23,48 +21,29 @@ CS 2420, CS 2810 and CS 3005 all with a C- or better.
 {fees}
 
 
-### Disability Statement
-
-{disability}
-
-
 ### Sections
 
-1.  TR 10:30 - 11:45 am in Smith 116
+1.  MWF 8:00 - 8:50 am in Smith 116
 
-    Final exam December 12 at 9:00 - 10:50 am
+    CRN: 40302
+
+    Final exam December 14 at 7:00 - 8:50 am
 
 
 ### Instructor
 
-[Curtis Larsen](/faculty/larsen.php)
+{instructor}
 
+Course Learning Objectives
+--------------------------
 
-Objectives
-----------
+At the successful conclusion of this course, students will be able to:
 
-The student will be able to discuss the principles of:
-
-*    problem solving using uninformed search,
-*    problem solving using informed search,
-*    problem solving using local search,
-*    propositional and first order logic,
-*    probability and probabalistic reasoning,
-*    machine learning,
-*    select topics in artificial intelligence.
-
-The student will be able to:
-
-*    design problem definitions suitable for use
-     in search algorithms,
-*    implement and use search algorithms,
-*    design and implement propositional logic
-     to solve problems,
-*    design and implement baysian networks
-     to solve problems,
-*    implement large software projects using
-     third party libraries,
-*    work in large software projects with legacy code.
+1. Construct solutions for a range of problems using search algorithms.
+2. Infer problems that can be solved using propositional logic and build appropriate solutions.
+3. Design and implement Bayesian networks.
+4. Integrate third-party libraries into solutions for large software projects.
+5. Collaborate to solve large and complex problems. 
 
 
 Resources
@@ -72,29 +51,24 @@ Resources
 
 ### Textbook
 
-There is one text for this course, available from the campus
-bookstore:
+There is no required text for the course.  However, the following
+book is recommended for students.
 
-1.  *Artificial Intelligence: A Modern Approach 3rd Ed.*
+1.  *Artificial Intelligence: A Modern Approach 4th Ed.*
     by Russell and Norvig,
-    [ISBN: 978-0-13-604259-4](http://www.google.com/products?q=9780136042594)
+    [ISBN: 9780137505135](http://www.google.com/products?q=9780137505135)
     (optional)
-    [Recommnded Reading](recommended_reading.php)
-
 
 ### Computer Labs
 
 {labs}
 
-The homework resources provided require the student to work in
-Linux.  This
-software is available in the lab.  Students choosing to work in another
+Many homework resources provided will require the student to work in
+Linux.  This software is available in the lab.  Students choosing to work in another
 setting will need to provide a version of the Ubuntu OS, with the GNU
-C++ tools for software development.  Note that the Linux development
-environment inside Windows 10 has worked for previous students.
+C++ tools for software development.  Note that the Windows Subsystem for Linux
+has worked well for previous students.
 Other students have used VirtualBox to install the required OS.
-
-[Notes for installing g++](/faculty/larsen/gplusplus-installation.php)
 
 
 ### Course Web Site
@@ -107,21 +81,23 @@ Assignments and Exams
 
 ### Reading
 
-{reading}
-
+While there is no required text book.  Students are encouraged
+to find and read relevant references.
 
 ### Assignments
 
-There will be assignment requirements due each week.  Most assignment
+There will be assignment requirements due each week.  Often assignment
 requirements will combine into larger projects to create software agents
 to perform rationally in a simulated environment.
 
+### Quizzes
+
+There will be occasional written quizzes to measure understanding of the
+concepts discussed and used in the course.
 
 ### Exams
 
-There will be two written exams scheduled
-during the semester as shown in the class schedule.
-
+There will be a periodic exams during the semester based on homework assignments.
 There will be a final exam as scheduled during finals week.  The
 final will include extensions to the course projects.  The student
 is responsible for keeping working backups of all code submitted
@@ -130,9 +106,8 @@ during the semester.
 
 ### Grading
 
-Assignments will count for 50% of your point total.  The midterm
-exams will count for 20% of your point total (10% each).  The 
-final exam will count for 30% of your point total.
+Assignments will count for 70% of your point total.  The quizzes
+will count for 4% of your point total. The exams will count for 26% of your point total.
 
 Letter grades are assigned based on the percentage of possible
 points attained, according to the following chart:
@@ -153,8 +128,9 @@ Course Policies
 
 ### Late Policy
 
-Each assignment has two due dates.  The earliest due date is the required date.  The second date is the absolute latest date to submit the assignment.
-Late work will not be accepted after the second date.  See Canvas for due dates.
+Each assignment has a due date and a submission-cutoff date.  The due date is the required date.  The submission-cutoff date
+is to allow students to correct small problems discovered during pass-off, or to allow for minor interruptions to personal
+schedules.  Late work will not be accepted after the submission-cutoff date.
 
 ### Collaboration
 
@@ -165,7 +141,6 @@ Late work will not be accepted after the second date.  See Canvas for due dates.
 {cheating}
 
 
-College Policies
-----------------
-
 {collegepolicies}
+
+{importantdates}

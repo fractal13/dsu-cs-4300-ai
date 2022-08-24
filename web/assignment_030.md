@@ -1,1 +1,1 @@
-assignments/assignment_wumpus_01_gold.md
+assignment_blank.md

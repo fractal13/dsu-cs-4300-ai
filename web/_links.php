@@ -30,7 +30,5 @@ print '<p>
 '. $print .'
 </p>';
 
-//<a href="grades.php">Grades</a> 
-//<a href="https://submit.cs.dixie.edu/">Submissions</a>
 
 ?>

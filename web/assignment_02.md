@@ -1,1 +1,0 @@
-assignments/assignment_rubiks_cube_classes.md

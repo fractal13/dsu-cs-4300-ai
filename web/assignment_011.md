@@ -1,1 +1,0 @@
-assignments/assignment_rubiks_02_partial_search.md

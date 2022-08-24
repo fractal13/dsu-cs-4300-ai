@@ -1,1 +1,0 @@
-assignments/assignment_wumpus_02_improve.md

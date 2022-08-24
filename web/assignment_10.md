@@ -1,1 +1,0 @@
-assignments/assignment_ultimate_tic_tac_toe_03_evaluation_function.md

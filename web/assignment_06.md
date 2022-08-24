@@ -1,1 +1,0 @@
-assignments/assignment_vertex_cover_local_search.md

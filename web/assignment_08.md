@@ -1,1 +1,0 @@
-assignments/assignment_ultimate_tic_tac_toe_01_minimax.md

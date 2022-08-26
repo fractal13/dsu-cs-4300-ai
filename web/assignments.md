@@ -5,7 +5,7 @@ Fall 2022 Assignments
 -----------------------
 
 * Assignment 0: [3 Problems](assignment_000.php)
-* Assignment 1: [1](assignment_010.php)
+* Assignment 1: [3 PEAS](assignment_010.php)
 * Assignment 2: [2](assignment_020.php)
 * Assignment 3: [3](assignment_030.php)
 * Assignment 4: [4](assignment_040.php)

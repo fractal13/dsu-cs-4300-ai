@@ -1,5 +1,6 @@
 REPO := dsu-cs-4300-ai
 EXAMPLE_REPO := ut-cs4300-examples-2022-40
+
 all:
 
 commit-push:

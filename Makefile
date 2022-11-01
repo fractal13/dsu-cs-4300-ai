@@ -1,4 +1,5 @@
 REPO := dsu-cs-4300-ai
+EXAMPLE_REPO := ut-cs4300-examples-2022-40
 all:
 
 commit-push:
@@ -15,15 +16,14 @@ update-web:
 		git commit -m 'automated daily commit'; \
 	fi;
 	git push;
-	ssh cgl@helios "cd courses/$(REPO)/; git pull"
+	ssh cgl@helios "cd courses/$(REPO)/; git pull; make install-on-helios"
 
 install-on-helios:
 	make install-examples
 
 install-examples:
-	@echo OK
-#	rm -f web/examples.examples
-#	ln -s ../../$(EXAMPLE_REPO)/code web/examples.examples
+	rm -f web/examples.examples
+	ln -s ../../$(EXAMPLE_REPO)/code web/examples.examples
 
 
 

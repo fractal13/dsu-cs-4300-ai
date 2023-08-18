@@ -5,7 +5,7 @@ CS 4300: Artificial Intelligence
 @ Utah Tech University
 ===================================
 
-Fall 2022 Syllabus
+Fall 2023 Syllabus
 --------------------
 
 ### Course Description
@@ -25,11 +25,11 @@ CS 2420, CS 2810 and CS 3005 all with a C or better.
 
 ### Sections
 
-1.  MWF 8:00 - 8:50 am in Smith 116
+1.  TR 10:30 - 11:45 am in Smith 116
 
-    CRN: 40302
+    CRN: 40145
 
-    Final exam December 14 at 7:00 - 8:50 am
+    Final exam December 14 at 9:00 - 10:50 am
 
 
 ### Instructor
@@ -65,14 +65,6 @@ book is recommended for students.
 
 {labs}
 
-Many homework resources provided will require the student to work in
-Linux.  This software is available in the lab.  Students choosing to work in another
-setting will need to provide a version of the Ubuntu OS, with the GNU
-C++ tools for software development.  Note that the Windows Subsystem for Linux
-has worked well for previous students.
-Other students have used VirtualBox to install the required OS.
-
-
 ### Course Web Site
 
 {website}
@@ -99,7 +91,7 @@ concepts discussed and used in the course.
 
 ### Exams
 
-There will be a periodic exams during the semester based on homework assignments.
+There will be periodic exams during the semester based on homework assignments.
 There will be a final exam as scheduled during finals week.  The
 final will include extensions to the course projects.  The student
 is responsible for keeping working backups of all code submitted

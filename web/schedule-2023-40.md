@@ -9,7 +9,7 @@ Day         | Topic                                         | Work Due
 Aug 21      | Week 1                                        |
 W01         | Introduction / Intelligent Agents             |
 W01         | Intelligent Agents                            | 
-Aug 25      |                                               | **[0](http://computing.utahtech.edu/cs/4300/assignments)**
+Aug 23      |                                               | **[0](http://computing.utahtech.edu/cs/4300/assignments)**
             |                                               |
             |                                               |
 Aug 28      | Week 2                                        |

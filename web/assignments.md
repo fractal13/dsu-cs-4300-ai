@@ -4,7 +4,7 @@ CS 4300: Artificial Intelligence
 Fall 2023 Assignments
 -----------------------
 
-* Assignment 0: [0](assignment_000.php)
+* Assignment 0: [Identify 3 Problems](assignment_000.php)
 * Assignment 1: [1](assignment_010.php)
 * Assignment 2: [2](assignment_020.php)
 * Assignment 3: [3](assignment_030.php)

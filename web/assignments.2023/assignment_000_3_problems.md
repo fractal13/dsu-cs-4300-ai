@@ -25,7 +25,7 @@ assignment is due.
 Sample Solution
 ---------------
 
-CS 4300 - Fall 2022 - Ash Ketchum
+CS 4300 - 3 Problems solvable by a rational agent - Ash Ketchum
 
 The game of Pokemon GO has a system for advancing the Mega Level of individual pokemon. The mega level system uses time and mega energy to advance an individual's level. Mega energy can only be obtained by completing raids or walking tasks in the game. A useful AI agent would help plan for when to walk or raid to obtain energy, and when to use energy to advance the level. The optimal result would be maximizing the mega level of a group of pokemon in a minimal amount time, given constraints on raids and walking.
 

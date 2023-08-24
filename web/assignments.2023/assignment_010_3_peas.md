@@ -4,14 +4,20 @@ CS 4300: Artificial Intelligence
 Assignment: PEAS Assessment of Problems
 ------------------------------------------------------
 
-Complete a PEAS assessment for each of the 3 problems identified 
-and briefly described in the previous assignment. The Performance
-measure must have a mathematical formulation. The Environment
+Complete a PEAS assessment for 3 problems.
+The Performance measure must have a mathematical formulation. The Environment
 must be classified in each of the 7 categories with an explanation
 of the class chosen. The Actuators may be described using the actions
 available to an agent. The Sensors may be described using the percepts
 available to an agent.
 
+Two of the problems must be selected from those identified and briefly 
+described in the previous assignment. The third problem must
+be the [Lunar Lander](https://gymnasium.farama.org/environments/box2d/lunar_lander/)
+environment. It is expected you will take time to study the 
+[source code](https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/box2d/lunar_lander.py) 
+for the environment simulator as you try to document the physics
+of this environment.
 
 Required Submissions
 ------------------------

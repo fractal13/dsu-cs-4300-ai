@@ -16,17 +16,7 @@ will give given an average score of -200.
 
 After your report and code are reviewed, assignment grades will be assigned.
 The maximum *possible* score will be controlled by the agent's performance measure.
-
-Average Score | Maximum Possible Grade
---------------|-----------------------
-a < -100      | 50%
--100 <= a < 0 | 65%
-0 <= a < 1    | 75%
-1 <= a < 2    | 80%
-2 <= a < 3    | 85%
-3 <= a < 5    | 90%
-5 <= a < 7    | 95%
-a >= 7        | 100%
+See the table below.
 
 Use the GitHub repository available for this course to store your
 solutions.  Make a directory named `taxi-model-search`, and store
@@ -58,6 +48,20 @@ Required Submissions
 
 - Code submitted to github.
 - A PDF file containing your report submitted to Canvas.
+
+Performance Measure Expectations
+--------------------------------
+
+Average Score | Maximum Possible Grade
+--------------|-----------------------
+a < -100      | 50%
+-100 <= a < 0 | 65%
+0 <= a < 1    | 75%
+1 <= a < 2    | 80%
+2 <= a < 3    | 85%
+3 <= a < 5    | 90%
+5 <= a < 7    | 95%
+a >= 7        | 100%
 
 
 Hints

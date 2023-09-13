@@ -7,7 +7,7 @@ Fall 2023 Assignments
 * Assignment 0: [Identify 3 Problems](assignment_000.php)
 * Assignment 1: [3 PEAS Assessments](assignment_010.php)
 * Assignment 2: [Simple Reflex Agent](assignment_020.php)
-* Assignment 3: [3](assignment_030.php)
+* Assignment 3: [Model Search Agent](assignment_030.php)
 * Assignment 4: [4](assignment_040.php)
 * Assignment 5: [5](assignment_050.php)
 * Assignment 6: [6](assignment_060.php)

@@ -76,6 +76,6 @@ You might want to consider solving the problem in two stages:
 - Solve the problem of driving to the passenger and picking them up.
 - Solve the problem of driving to the destination and dropping off the passenger.
 
-This will make the depth of goal states about 1/2 of goals states that
+This will make the depth of goal states about 1/2 of goal states that
 would be found solving the full problem. Since the depth of solution 
 is the exponent in our time complexity, this is a *huge* time savings.

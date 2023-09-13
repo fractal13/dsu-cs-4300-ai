@@ -73,8 +73,8 @@ off.
 
 You might want to consider solving the problem in two stages:
 
-1- Solve the problem of driving to the passenger and picking them up.
-2- Solve the problem of driving to the destination and dropping off the passenger.
+- Solve the problem of driving to the passenger and picking them up.
+- Solve the problem of driving to the destination and dropping off the passenger.
 
 This will make the depth of goal states about 1/2 of goals states that
 would be found solving the full problem. Since the depth of solution 

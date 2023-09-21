@@ -9,7 +9,7 @@ Create an agent to perform in the
 ([minigrid source code](https://github.com/Farama-Foundation/MiniGrid)).
 
 The performance measure used by this assignment to assess the quality of your agent
-will be the episode total reward, averaged over at least *TBA* episodes. 
+will be the episode total reward, averaged over at least 25 episodes. 
 An agent that doesn't complete some episodes (times out / runs out of memory / crashes),
 will give given an average score of 0.
 
@@ -52,10 +52,19 @@ Required Submissions
 Performance Measure Expectations
 --------------------------------
 
-Average Score | Maximum Possible Grade
---------------|-----------------------
+MiniGrid-MultiRoom-N6-S6-v0
+---------------------------
 
-TBA
+Average Score    | Maximum Possible Grade
+-----------------|-----------------------
+a <    0.50      | 50%
+0.50 <= a < 0.60 | 65%
+0.60 <= a < 0.68 | 75%
+0.68 <= a < 0.69 | 80%
+0.69 <= a < 0.70 | 85%
+0.70 <= a < 0.71 | 90%
+0.71 <= a < 0.72 | 95%
+a >= 0.72        | 100%
 
 
 Hints and Resources
@@ -93,5 +102,6 @@ Hints and Resources
 - The [Fully Observable](https://minigrid.farama.org/api/wrappers/#fully-obs) environment
   wrapper is necessary to have the required information for search in the observation.
   
-  
+- In the RESULT method, when moving the agent's location, it's OK to set the contents of the
+  grid cell the agent is moving from to be "empty".
 

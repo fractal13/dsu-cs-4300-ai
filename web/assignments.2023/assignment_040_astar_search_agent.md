@@ -63,7 +63,8 @@ Hints and Resources
 
 - `import my_minigrids` to make a variety of environment configurations available.
   They have the form `MiniGrid-MultiRoom-N{}-S{}-v0`, where N2-N9 and S4-S9 are
-  available. [my_minigrids.py](my_minigrids.py)
+  available. NX will have X rooms, and SY will have rooms at most YxY in size.
+  [my_minigrids.py](assignments/my_minigrids.py)
 
 - As discussed in class, the unique state information is: agent row, agent column,
   agent direction, and (door row, door column, door state) for every door. Everything

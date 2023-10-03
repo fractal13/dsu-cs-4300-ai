@@ -1,4 +1,4 @@
-TARGETS := exam1-2018.pdf
+TARGETS := exam1-2018.pdf quiz2-2023.pdf
 
 all: $(TARGETS)
 

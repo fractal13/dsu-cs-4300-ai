@@ -4,8 +4,17 @@ CS 4300: Artificial Intelligence
 Assignment: Local Search for Agent Policy
 ------------------------------------------------------
 
-Reflex agents are implemented with a lookup table, or policy, that maps a state to an action.
-$\pi(state) -> action$
+Reflex agents can implemented with a lookup table, or policy, that maps states to actions.
+In this assignment, you will use local search to find a policy to use in a reflex agent.
+You are allowed to use any of the various local search algorithms discussed in class. If
+you would like to use a different local search algorithm, please clear it with the instructor
+first.
+
+You will be searching for a policy that can be used in the [Cliff Walking](https://gymnasium.farama.org/environments/toy_text/cliff_walking/)
+environment ([cliffwalking.py](https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/toy_text/cliffwalking.py)).
+
+
+
 
 
 

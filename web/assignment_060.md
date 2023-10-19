@@ -1,1 +1,1 @@
-assignment_blank.md
+assignments/assignment_060_adversarial_search_agent.md

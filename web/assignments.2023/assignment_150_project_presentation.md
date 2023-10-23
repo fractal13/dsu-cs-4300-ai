@@ -5,7 +5,8 @@ Assignment: Project Presentation
 ------------------------------------------------------
 
 Prepare slides for a 4-5 minute presentation. Present your project and its results
-using these slides during the final exam class meeting. Think of this as an oral
+using these slides during the randomly assigned class period, beginning on the
+due date. Think of this as an oral
 report to your classmates on your project. You should practice your presentation
 to be sure that it fits into the required time limitation.
 

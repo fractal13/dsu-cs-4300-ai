@@ -6,8 +6,8 @@ Assignment: Project Report
 
 Write a report that contains the PEAS assessment, a discussion
 of the search algorithm used, the variety of problem instances,
-the results, and conclusions about what can be learned from
-your project's results.
+the search results obtained, and conclusions about what can be 
+learned from your project's results.
 
 
 Required Submissions

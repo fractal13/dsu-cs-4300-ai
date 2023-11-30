@@ -13,11 +13,11 @@ to be sure that it fits into the required time limitation.
 Possible Outline for the Presentation
 --------------------------------------
 
-1- Introduce PEAS assessment of your project.
-2- Describe the agent you have built for the environment.
-3- Describe the variety of problem instances.
-4- Show the results of the agent's performance.
-5- Discuss possible changes and improvements that could be made to the project.
+- Introduce PEAS assessment of your project.
+- Describe the agent you have built for the environment.
+- Describe the variety of problem instances.
+- Show the results of the agent's performance.
+- Discuss possible changes and improvements that could be made to the project.
 
 DO NOT GO ON-AND-ON ABOUT WHAT DIDN'T WORK, or WHAT YOU WERE GOING TO DO.
 

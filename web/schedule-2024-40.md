@@ -33,7 +33,7 @@ Sep 12      |                                               | **[3](http://compu
 Sep 16      | Week 5                                        |
 W05         | Search with Nondeterministic Actions          |
 W05         | Search in Partially Observable Environments   |
-Sep 20      |                                               | **[4](http://computing.utahtech.edu/cs/4300/assignments)**
+Sep 19      |                                               | **[4](http://computing.utahtech.edu/cs/4300/assignments)**
             |                                               |
             |                                               |
 Sep 23      | Week 6                                        |

@@ -20,7 +20,12 @@ See the table below.
 
 Use the GitHub repository available for this course to store your
 solutions.  Make a directory named `taxi-model-search`, and store
-your agent in `taxi-model-search/agent1.py`.
+your agent in `taxi-model-search/agent1.py`. This file must contain
+a class `Agent1` with the methods:
+
+* `def __init__(self)`: initializes the agent, including creating a model instance
+* `def reset(self)`: resets the agent's data and model instance
+* `def agent_function(self, state)`: receives `state` an observation from the gymnasium environment, returns an action for the gymnasium environment.
 
 Note that you are to implement an agent that has a *model* of the
 environment and uses one of the uninformed *search* algorithms we have discussed.

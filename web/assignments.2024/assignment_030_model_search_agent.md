@@ -12,7 +12,7 @@ Create an agent to perform in the
 The performance measure used by this assignment to assess the quality of your agent
 will be the episode total reward, averaged over at least 100 episodes. 
 An agent that doesn't complete some episodes (times out / runs out of memory / crashes),
-will give given an average score of -200.
+will be given an average score of -200.
 
 After your report and code are reviewed, assignment grades will be assigned.
 The maximum *possible* score will be controlled by the agent's performance measure.
@@ -31,6 +31,9 @@ The model must contain at least these methods:
 * ACTIONS(s) -> list of actions allowed in state s
 * RESULT(s, a) -> state that results from action a in state s
 * GOAL-TEST(s) -> true or false, depending on the state s
+
+Where `s` is the state received from the gymnasium environment, and `a` is
+an action number used by the gymnasium environment.
 
 We discussed in class that some form of depth limited search would probably be
 most successful for this problem, with iterative deepening search probably

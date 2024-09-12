@@ -35,7 +35,7 @@ The model must contain at least these methods:
 
 * ACTIONS(s) -> list of actions allowed in state s
 * RESULT(s, a) -> state that results from action a in state s
-* GOAL-TEST(s) -> true or false, depending on the state s
+* GOAL_TEST(s) -> true or false, depending on the state s
 
 Where `s` is the state received from the gymnasium environment, and `a` is
 an action number used by the gymnasium environment.

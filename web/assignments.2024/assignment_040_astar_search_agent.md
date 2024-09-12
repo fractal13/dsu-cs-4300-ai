@@ -21,6 +21,12 @@ Use the GitHub repository available for this course to store your
 solutions.  Make a directory named `multiroom-astar-search`, and store
 your agent in `multiroom-astar-search/agent1.py`.
 
+This file must contain a class `Agent1` with the methods:
+
+* `def __init__(self)`: initializes the agent, including creating a model instance
+* `def reset(self)`: resets the agent's data and model instance
+* `def agent_function(self, state)`: receives `state` an observation from the gymnasium environment, returns an action for the gymnasium environment.
+
 Note that you are to implement an agent that has a *model* of the
 environment and uses the A-star search algorithm we have discussed.
 DO NOT make a reinforcement learning agent, or use some other algorithms for these agents.
@@ -29,9 +35,13 @@ The model must contain at least these methods:
 
 * ACTIONS(s) -> list of actions allowed in state s
 * RESULT(s, a) -> state that results from action a in state s
-* GOAL-TEST(s) -> true or false, depending on the state s
-* STEP-COST(s, a, s1) -> cost of taking action a in state s and ending up in state s1
+* GOAL_TEST(s) -> true or false, depending on the state s
+* STEP_COST(s, a, s1) -> cost of taking action a in state s and ending up in state s1
 * HEURISTIC(s) -> estimated cost of reaching a goal state from state s.
+
+Where `s` is the state received from the gymnasium environment, and `a` is
+an action number used by the gymnasium environment. `s1` is also a state
+from the gymnasium environment.
 
 We discussed in class that using graph search would probably be better than
 tree-like search.

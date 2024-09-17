@@ -18,6 +18,8 @@ Remember, you are searching for a policy that can be used in this environment. Y
 Required Process/Files
 ----------------------
 
+_DETAILS WILL BE UPDATED_
+
 Use the GitHub repository available for this course to store your
 solution.  Make a directory named `local-policy-search`. Store the
 local search program in `local-policy-search/policy_search.py`.

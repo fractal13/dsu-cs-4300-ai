@@ -18,25 +18,36 @@ Remember, you are searching for a policy that can be used in this environment. Y
 Required Process/Files
 ----------------------
 
-_DETAILS WILL BE UPDATED_
-
 Use the GitHub repository available for this course to store your
-solution.  Make a directory named `local-policy-search`. Store the
-local search program in `local-policy-search/policy_search.py`.
+solution.  Make a directory named `cliff-policy-local-search`. Store the
+local search program in `cliff-policy-local-search/policy_search.py`.
+This file must have a function `policy_search()` that returns a
+policy for the Cliff Walking environment. The policy must be a
+Python list with 37 elements, one for each reachable state
+in the environment. Each element is an integer, representing
+the action that should be taken at that state.
 
-Use this program to find a good policy for a reflex agent. This
-program should display the best policy found, and the objective
-function score for the policy. Each time this program is run, 
-it will probably produce a different policy, due to the stochastic
-nature of local search starting points. This is fine. Every time it
-is run, it should produce a policy that solves the problem.
+You must also provide an agent class in the file `cliff-policy-local-search/cliff_policy_agent.py`.
+This class must be called `PolicyAgent`, and have the following methods:
 
-Store a reflex agent that uses the best policy you have found
-in `local-policy-search/agent1.py`. Note that this agent should
-use the `human` render mode so that when executed the agent's actions
-can be observed. Also note that since the start state is always the
-same, and environment is static and deterministic, this should
-produce the same results every time it is run.
+- `def __init__(self, policy):` stores the policy in a data member.
+- `def reset(self):` does nothing, but is required.
+- `def agent_function(self, state):` returns the action specified by the policy for the state.
+
+The [`cliff_policy_search_runner.py`](assignments/cliff_policy_search_runner.py) program can be used to run
+your policy search, and save the policy to a file in JSON format. 
+It can also be used to measure the quality of the policy.
+Use `--help` to look at the command line options available.
+
+For example, you could run these two commands to create a policy,
+and to measure it.
+
+    ./cliff_policy_search_runner.py policy-search -p policy.json
+    ./cliff_policy_search_runner.py policy-measure -p policy.json
+
+Note that the `policy_search()` function does not take any parameters.
+It must be configured such that a call to it will find a good policy in less than
+120 seconds, and return it.
 
 Report
 ------
@@ -45,6 +56,17 @@ The report should describe which local search algorithm(s) was(were) used.
 It should also describe the objective function used. If the function has
 multiple components, explain each one, and how the components are combined to
 produce a useful objective function.
+
+Scoring
+-------
+
+Your agent will be scored by the following criteria:
+
+- 5 policies will be found using your `policy_search()` function
+- all policies will be measured
+- the highest and lowest scores will be ignored
+- the average of the remaining three will be used as the score.
+
 
 Required Submissions
 ------------------------

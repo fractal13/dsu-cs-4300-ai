@@ -48,4 +48,5 @@ Required Submissions
 Hints and Resources
 -------------------
 
-- ???
+- [`connect_four_runner.py`](assignments/connect_four_runner.py)
+

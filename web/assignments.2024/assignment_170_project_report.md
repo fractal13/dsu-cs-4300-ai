@@ -5,10 +5,12 @@ Assignment: Project Report
 ------------------------------------------------------
 
 Write a report that contains the PEAS assessment, a discussion
-of the search algorithm used, the variety of problem instances,
+of the search algorithm used, the variety of agent implementations, 
+the variety of problem instances,
 the search results obtained, and conclusions about what can be 
 learned from your project's results.
 
+Note that this report is in effect your final exam.
 
 Required Submissions
 ------------------------

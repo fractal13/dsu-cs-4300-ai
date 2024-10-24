@@ -1,1 +1,1 @@
-assignments/assignment_110_project_PEAS_model.md
+assignments/assignment_110_project_PEAS.md

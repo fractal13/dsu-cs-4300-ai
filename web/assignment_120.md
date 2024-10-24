@@ -1,1 +1,1 @@
-assignments/assignment_120_project_environement_model.md
+assignments/assignment_120_project_environment_model.md

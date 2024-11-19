@@ -15,8 +15,7 @@ You will deliver a **4-minute presentation** on your class project using slides.
   - If it exceeds 4 minutes, simplify or summarize sections to fit the time limit.
 - **Presentation date:** You will present during your **randomly assigned class period**, starting on the project due date. Be prepared and check the schedule for your assigned day.
 
-Suggested Presentation Outline
-------------------------------
+### Suggested Presentation Outline
 
 Use the following structure as a guide:
 
@@ -26,13 +25,12 @@ Use the following structure as a guide:
 - **Results:** Show the agent’s performance outcomes. Use graphs, tables, or visuals to make results clear.
 - **Improvements:** Discuss potential enhancements or future directions for your project.
 
-Notes:
------------
+### Notes:
+
 - Avoid lengthy discussions on what didn’t work or what you planned but didn’t implement. Focus on completed work and key takeaways.
 - Practice to ensure you stay within the time limit.
 
-Required Submissions
----------------------
+### Required Submissions
 
 Before the presentation: 
 

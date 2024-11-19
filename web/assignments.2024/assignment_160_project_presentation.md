@@ -4,41 +4,38 @@ CS 4300: Artificial Intelligence
 Assignment: Project Presentation
 ------------------------------------------------------
 
-Prepare slides for a 4 minute presentation. Present your project and its results
-using these slides during the randomly assigned class period, beginning on the
-due date. Think of this as an oral
-report to your classmates on your project. You should practice your presentation
-to be sure that it fits into the required time limitation. 
+### Overview
+You will deliver a **4-minute presentation** on your class project using slides. This presentation is your opportunity to summarize and share your project’s key aspects and results with your classmates.
 
-If you don't have enough material for 4 minutes, maybe you are skipping over
-some detail of your project that may be interesting.
+### Instructions  
+- **Prepare slides:** Create slides to guide your presentation. These must concisely and effectively communicate your project.
+- **Presentation timing:**
+  - Your presentation must not exceed **4 minutes**. Practice to ensure you stay within this limit.
+  - If your presentation is too short, consider including more detail about the problem, methods, or insights.
+  - If it exceeds 4 minutes, simplify or summarize sections to fit the time limit.
+- **Presentation date:** You will present during your **randomly assigned class period**, starting on the project due date. Be prepared and check the schedule for your assigned day.
 
-If you take more than 4 minutes to present your project, maybe you're over 
-sharing some part of the project. Try to simplify and summarize.
+Suggested Presentation Outline
+------------------------------
 
+Use the following structure as a guide:
+- **Introduction:** Present the PEAS (Performance measure, Environment, Actuators, Sensors) assessment for your project.  
+- **Agent Design:** Describe the agent you developed for the project environment. Highlight any variations or key features of your agent.
+- **Problem Instances:** Explain the types of problem instances your agent was tested on.
+- **Results:** Show the agent’s performance outcomes. Use graphs, tables, or visuals to make results clear.
+- **Improvements:** Discuss potential enhancements or future directions for your project.
 
-
-Possible Outline for the Presentation
---------------------------------------
-
-- Introduce PEAS assessment of your project.
-- Describe the agent you have built for the environment. Include any variations of the agent.
-- Describe the variety of problem instances.
-- Show the results of the agent's performance.
-- Discuss possible changes and improvements that could be made to the project.
-
-DO NOT GO ON-AND-ON ABOUT WHAT DIDN'T WORK, or WHAT YOU WERE GOING TO DO.
+Notes:
+-----------
+- Avoid lengthy discussions on what didn’t work or what you planned but didn’t implement. Focus on completed work and key takeaways.
+- Practice to ensure you stay within the time limit.
 
 Required Submissions
-------------------------
+---------------------
 
-- A PDF with your slides, via Canvas.
-- Any additional code or code updates, via your git repository.
-- Presentation during class.
+Before the presentation: 
+- **Slides:** Submit a PDF version of your slides on Canvas.
+- **Code:** Push any additional code or updates to your project’s git repository.
 
-Passoff
--------
-
-Upload your PDF to the Canvas assignment.
-Push your code to the cloud.
-Present during class.
+During your assigned class period:
+- **Present:** Deliver your 4-minute presentation to the class.

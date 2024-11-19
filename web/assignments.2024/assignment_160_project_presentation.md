@@ -7,7 +7,7 @@ Assignment: Project Presentation
 ### Overview
 You will deliver a **4-minute presentation** on your class project using slides. This presentation is your opportunity to summarize and share your project’s key aspects and results with your classmates.
 
-### Instructions  
+### Instructions
 - **Prepare slides:** Create slides to guide your presentation. These must concisely and effectively communicate your project.
 - **Presentation timing:**
   - Your presentation must not exceed **4 minutes**. Practice to ensure you stay within this limit.
@@ -19,6 +19,7 @@ Suggested Presentation Outline
 ------------------------------
 
 Use the following structure as a guide:
+
 - **Introduction:** Present the PEAS (Performance measure, Environment, Actuators, Sensors) assessment for your project.  
 - **Agent Design:** Describe the agent you developed for the project environment. Highlight any variations or key features of your agent.
 - **Problem Instances:** Explain the types of problem instances your agent was tested on.

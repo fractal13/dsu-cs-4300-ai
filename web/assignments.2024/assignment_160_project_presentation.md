@@ -35,8 +35,10 @@ Required Submissions
 ---------------------
 
 Before the presentation: 
+
 - **Slides:** Submit a PDF version of your slides on Canvas.
 - **Code:** Push any additional code or updates to your project’s git repository.
 
 During your assigned class period:
+
 - **Present:** Deliver your 4-minute presentation to the class.

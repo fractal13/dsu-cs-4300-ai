@@ -4,16 +4,16 @@ CS 4300: Artificial Intelligence
 Assignment: Project Presentation
 ------------------------------------------------------
 
-Prepare slides for a 4-5 minute presentation. Present your project and its results
+Prepare slides for a 4 minute presentation. Present your project and its results
 using these slides during the randomly assigned class period, beginning on the
 due date. Think of this as an oral
 report to your classmates on your project. You should practice your presentation
 to be sure that it fits into the required time limitation. 
 
-If you don't have enough material for 4-5 minutes, maybe you are skipping over
+If you don't have enough material for 4 minutes, maybe you are skipping over
 some detail of your project that may be interesting.
 
-If you take more than 4-5 minutes to present your project, maybe you're over 
+If you take more than 4 minutes to present your project, maybe you're over 
 sharing some part of the project. Try to simplify and summarize.
 
 

@@ -1,0 +1,316 @@
+% !TEX program = pdflatex
+\documentclass[aspectratio=169]{beamer}
+
+% Shared course configuration (theme, colors, metadata, macros)
+\usepackage{agentsslides}
+\usepackage{multicol} % for two-column TOCs
+
+% Section/subsection TOCs in two columns
+\AtBeginSection[]{
+  \begin{frame}{Today’s Plan}
+    \begin{multicols}{2}
+      \tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
+    \end{multicols}
+  \end{frame}
+}
+\AtBeginSubsection[]{
+  \begin{frame}{Where we are}
+    \begin{multicols}{2}
+      \tableofcontents[currentsection,currentsubsection,subsectionstyle=show/shaded/hide]
+    \end{multicols}
+  \end{frame}
+}
+
+\begin{document}
+
+% ---------- Title ----------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ---------- Agenda (Sections-only, two columns) ----------
+\begin{frame}{Today’s Plan}
+\begin{columns}[t,onlytextwidth]
+  \column{0.48\textwidth}
+    \tableofcontents[hideallsubsections,sections={1-4}]
+  \column{0.48\textwidth}
+    \tableofcontents[hideallsubsections,sections={5-7}]
+\end{columns}
+\end{frame}
+
+% =====================================================
+\section{Course Introduction \& Syllabus (10 min)}
+
+\subsection{Welcome}
+\begin{frame}{Welcome}
+\begin{itemize}
+  \item Course: \course\ — \textit{Intelligent Agents}
+  \item Instructor: Curtis Larsen (\texttt{curtis.larsen@utahtech.edu})
+  \item Term: \term
+  \item Logistics: Canvas, lecture notes, code examples, office hours
+\end{itemize}
+\end{frame}
+
+\subsection{Syllabus Highlights}
+\begin{frame}{Syllabus Highlights (High-Level)}
+\begin{itemize}
+  \item \textbf{Learning goals:} Intelligent agents, search, reasoning, uncertainty, LLMs \& agentic-AI
+  \item \textbf{Work:} Readings (AIMA + notes + internet), programming projects, quizzes, exams
+  \item \textbf{Grading:} Projects, quizzes, exams
+  \item \textbf{Policies:} Collaboration vs. plagiarism, late work, academic integrity
+\end{itemize}
+\end{frame}
+
+\subsection{Projects \& Expectations}
+\begin{frame}{Projects \& Expectations}
+\begin{itemize}
+  \item \textbf{Projects:} Classical agent tasks + agentic LLM projects
+  \item \textbf{Skills:} Python, testing, version control (Git), experimental rigor
+  \item \textbf{Expectations:} Come prepared; iterate; measure and report
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Welcome \& Context (5 min)}
+
+\subsection{Why Intelligent Agents?}
+\begin{frame}{Why “Intelligent Agents” (vs “Artificial Intelligence”)?}
+\begin{itemize}
+  \item Focus on \textbf{perception $\rightarrow$ decision $\rightarrow$ action} in environments
+  \item Unified lens across search, planning, learning, NLP, robotics
+  \item Bridges classical AI and \textbf{agentic-AI with LLMs}
+\end{itemize}
+\end{frame}
+
+\subsection{AI Is Everywhere}
+\begin{frame}{AI Is Everywhere}
+\begin{itemize}
+  \item Conversational systems (LLMs), recommender systems
+  \item Autonomous driving, robotics, warehouse automation
+  \item Medical decision support, fraud detection, game AIs
+  \item We’ll analyze these \textbf{as agents}: goals, information, actions, feedback
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Brief History of AI (10 min)}
+
+\subsection{Early Foundations}
+\begin{frame}{Early Foundations}
+\begin{itemize}
+  \item Philosophy of mind, logic (Aristotle, Frege), computation (Turing)
+  \item Cognitive science \& early neuroscience
+  \item Optimization and probability laid groundwork
+\end{itemize}
+\end{frame}
+
+\subsection{Dartmouth \& Symbolic Era}
+\begin{frame}{Dartmouth 1956 \& Symbolic Era}
+\begin{itemize}
+  \item AI named as a field; optimism around symbolic reasoning
+  \item \textbf{GOFAI:} logic, search, planning, rule-based systems
+  \item Successes and brittleness in complex, uncertain domains
+\end{itemize}
+\end{frame}
+
+\subsection{Expert Systems}
+\begin{frame}{Expert Systems \texorpdfstring{(1970s–80s)}{}}
+\begin{itemize}
+  \item Knowledge engineering; if-then rules; MYCIN, DENDRAL
+  \item Knowledge bottleneck; maintenance costs; limited generalization
+\end{itemize}
+\end{frame}
+
+\subsection{Statistical ML \& Deep Learning}
+\begin{frame}{Statistical ML \& Deep Learning}
+\begin{itemize}
+  \item Shift to \textbf{data-driven} methods (90s–present)
+  \item Probabilistic modeling; SVMs; ensemble methods
+  \item Deep learning breakthroughs (vision, speech, RL)
+\end{itemize}
+\end{frame}
+
+\subsection{Current Wave}
+\begin{frame}{Current Wave: LLMs \& Agentic AI}
+\begin{itemize}
+  \item Foundation models for language \& multimodal inputs
+  \item \textbf{Agents using LLMs} for planning, tools, memory, multi-step tasks
+  \item Safety, alignment, evaluation challenges persist
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Influential Fields (5 min)}
+
+\subsection{Cross-Disciplinary Roots}
+\begin{frame}{Fields that Influenced AI}
+\begin{columns}[T,onlytextwidth]
+\column{0.5\textwidth}
+\begin{itemize}
+  \item Philosophy (reasoning, ethics)
+  \item Mathematics (logic, probability, optimization)
+  \item Economics (utility, game theory)
+  \item Linguistics (syntax, semantics)
+\end{itemize}
+\column{0.5\textwidth}
+\begin{itemize}
+  \item Psychology (cognition, behavior)
+  \item Neuroscience (learning, perception)
+  \item CS/Engineering (algorithms, systems)
+\end{itemize}
+\end{columns}
+\end{frame}
+
+% =====================================================
+\section{Major Subfields (10 min)}
+
+\subsection{Part I}
+\begin{frame}{Survey of AI Subfields — Part I}
+\begin{itemize}
+  \item \textbf{Search \& Problem Solving}
+  \item \textbf{Knowledge Representation \& Reasoning}
+  \item \textbf{Planning \& Decision Making}
+\end{itemize}
+\end{frame}
+
+\subsection{Part II}
+\begin{frame}{Survey of AI Subfields — Part II}
+\begin{itemize}
+  \item \textbf{Machine Learning} (incl. deep learning)
+  \item \textbf{Natural Language Processing}
+  \item \textbf{Vision \& Perception}
+  \item \textbf{Robotics \& Agents}
+  \item \textbf{Uncertainty \& Probabilistic Reasoning}
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Intelligent Agents Framework (20 min)}
+
+\subsection{What is an Agent?}
+\begin{frame}{What is an Agent?}
+\begin{block}{Agent}
+An entity that perceives its \textbf{environment} through sensors and acts upon that environment through \textbf{actuators} to \textbf{maximize performance} relative to a goal.
+\end{block}
+\begin{itemize}
+  \item Policies/architectures: Reflex, model-based, goal-based, utility-based, learning agents
+\end{itemize}
+\end{frame}
+
+\subsection{\PEAS{} Framework}
+\begin{frame}{\PEAS{} Framework}
+\begin{block}{\PEAS}
+\textbf{P}erformance measure, \textbf{E}nvironment, \textbf{A}ctuators, \textbf{S}ensors
+\end{block}
+\begin{itemize}
+  \item Problem formulation starts with \PEAS{}: clarifies success criteria, context, and interface
+\end{itemize}
+\end{frame}
+
+\subsection{\PEAS{} Examples}
+\begin{frame}{\PEAS{} Examples}
+\begin{PEASTable}
+  \PEASHeader
+  \PEASrow{Self-driving car}{Safety, legality, comfort, efficiency}
+          {Urban roads, traffic, weather, rules}
+          {A: throttle, brake, steering; S: cameras, LiDAR, GPS, IMU}
+  \PEASrow{Chess program}{Win rate, time, search efficiency}
+          {Board positions, rules, opponent}
+          {A: move pieces; S: board state}
+  \PEASrow{Voice assistant}{Accuracy, latency, user satisfaction}
+          {Home/phone context, services/APIs}
+          {A: speech, device control; S: microphone, app signals}
+  \PEASrow{Warehouse robot}{Throughput, error rate, energy}
+          {Warehouse floor, shelves, humans}
+          {A: wheels, gripper; S: camera, depth, RFID}
+  \PEASBottom
+\end{PEASTable}
+\end{frame}
+
+\subsection{Environment–Agent Loop}
+\begin{frame}{Environment–Agent Loop}
+\centering
+\AgentEnvLoop{Environment}{Agent}[Percepts][Actions]
+\bigskip
+
+\begin{itemize}
+  \item Perceive $\rightarrow$ Decide (policy/planning/learning) $\rightarrow$ Act $\rightarrow$ New state
+  \item Feedback via performance signals; learning updates policy/model
+\end{itemize}
+\end{frame}
+
+\subsection{Environment Attributes}
+\begin{frame}{Environment Attributes (1/3)}
+\begin{itemize}
+  \item \textbf{Observable:} Fully vs. partially observable
+  \item \textbf{Outcomes:} Deterministic vs. stochastic
+\end{itemize}
+\begin{block}{Examples}
+Chess: fully observable, (quasi-)deterministic\\
+Robot navigation: partially observable, stochastic dynamics \& sensors
+\end{block}
+\end{frame}
+
+\begin{frame}{Environment Attributes (2/3)}
+\begin{itemize}
+  \item \textbf{Temporal structure:} Episodic vs. sequential
+  \item \textbf{Dynamics:} Static vs. dynamic (incl. semidynamic)
+\end{itemize}
+\begin{block}{Examples}
+Image classification: episodic, static\\
+Autonomous driving: sequential, dynamic
+\end{block}
+\end{frame}
+
+\begin{frame}{Environment Attributes (3/3)}
+\begin{itemize}
+  \item \textbf{State/Action representation:} Discrete vs. continuous
+  \item \textbf{Multiplicity:} Single-agent vs. multi-agent
+\end{itemize}
+\begin{block}{Examples}
+Gridworld: discrete, single-agent\\
+Robot soccer: continuous state/action, multi-agent, partially observable, stochastic, sequential, dynamic
+\end{block}
+\end{frame}
+
+\subsection{Activity}
+\begin{frame}{Classify an Environment (Activity)}
+\textbf{Prompt:} For \emph{robot soccer}, classify each attribute:
+\begin{itemize}
+  \item Observability? Outcomes? Temporal structure? Dynamics?
+  \item Discrete/continuous? Single-/multi-agent?
+  \item What \PEAS{} would you write?
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Closing (5 min)}
+
+\subsection{Recap}
+\begin{frame}{Recap}
+\begin{itemize}
+  \item History \& influences of AI
+  \item Major subfields
+  \item Intelligent agents: \PEAS{}, environment–agent loop, environment attributes
+\end{itemize}
+\end{frame}
+
+\subsection{Looking Ahead}
+\begin{frame}{Looking Ahead}
+\begin{itemize}
+  \item Next: \textbf{Uninformed Search} (problem formulation, state spaces, BFS/DFS, uniform-cost)
+  \item Reading: AIMA Ch. 2 (agents), Ch. 3 (search) excerpts
+  \item Optional: skim recent agentic-LLM papers/blogs for context
+\end{itemize}
+\end{frame}
+
+\subsection{Q\&A}
+\begin{frame}{Questions \& Logistics}
+\begin{itemize}
+  \item Questions?
+  \item Office hours / Contact info
+  \item Course repo \& environment setup checklist
+\end{itemize}
+\end{frame}
+
+\end{document}

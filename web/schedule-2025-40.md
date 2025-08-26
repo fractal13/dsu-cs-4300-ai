@@ -30,37 +30,31 @@ Sep 25                  | **Midterm Exam**                                      
 **Oct 2 (Thu):**        | Hugging Face (low-level): tokenizers, model loading, raw generation            |
 Oct XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 8** ||
 **Oct 7 (Tue):**        | Hugging Face Pipelines — classification, QA, translation, efficiency           |
 **Oct 9 (Thu):**        | *Fall Break — No class*       |
 Oct XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 9** ||
 **Oct 14 (Tue):**       | API-based access — OpenAI/Anthropic/Azure endpoints; rate limits, cost, evaluation basics       |
 **Oct 16 (Thu):**       | Prompt engineering — structured prompting (CoT, ReAct, JSON outputs)           |
 Oct XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 10** ||
 **Oct 21 (Tue):**       | Agent frameworks — smolagents, LangChain, CrewAI, semantic routers             |
 **Oct 23 (Thu):**       | Tool creation I — building simple tools, integration basics, patterns          |
 Oct XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 11** ||
 **Oct 28 (Tue):**       | Tool creation II — details, tricks, debugging, standard tool sets              |
 **Oct 30 (Thu):**       | MCP (Model Context Protocol) — concepts, implementation, examples              |
 Oct XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 12** ||
 **Nov 4 (Tue):**        | Orchestration — tool routing, guardrails, function calling, multi-step planning       |
 **Nov 6 (Thu):**        | Multi-agent systems — emergent behavior, collaboration frameworks              |
 Nov XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |
-
 **Week 13 (Nov 11, 13)**| Applications: robotics, bioinformatics, business intelligence, UX agents       |
 Nov XX                  |                                                                                | **[0](http://cs.utahtech.edu/cs/4300/assignments)**
                         |                                                                                |

@@ -139,3 +139,57 @@
 % Drop these in frames to show progress-local TOCs without retyping options.
 \providecommand{\SectionTOC}{\tableofcontents[currentsection]}
 \providecommand{\SubsectionTOC}{\tableofcontents[currentsection,currentsubsection,subsectionstyle=show/shaded/hide]}
+
+
+% --- SVG support (auto-size via Inkscape) ---
+\usepackage{svg}                 % provides \includesvg with size detection
+\svgpath{{figures_svg/}}         % where your .svg files live
+\graphicspath{{figures_svg/}{figures/}} % fallback search paths (SVGs first)
+
+% Recommended: compile with --shell-escape and have Inkscape 1.x installed.
+% Example latexmk: latexmk -pdf -shell-escape main.tex
+
+% We’re not using LaTeX-over-SVG text overlays; keep it simple:
+\setsvg{inkscapelatex=false}
+
+
+% In agentsslides.sty or your preamble:
+
+% 1) Ensure svg is loaded
+\makeatletter
+\@ifpackageloaded{svg}{}{\RequirePackage{svg}}
+\makeatother
+
+% --- in agentsslides.sty (or your preamble) ---
+\RequirePackage{currfile}  % gives \currfileabsdir (absolute dir of the current .tex file)
+
+% SVG-first, PNG/PDF fallback, using ABSOLUTE paths so Inkscape never sees a relative one.
+\makeatletter
+% --- In your preamble or agentsslides.sty ---
+\RequirePackage{graphicx}
+
+% \fig[<includegraphics options>]{<base-filename-without-extension>}
+% Preference order: PNG (figures/ then cwd) → PDF → JPG/JPEG → raw name
+\newcommand{\fig}[2][]{%
+  % PNGs first
+  \IfFileExists{figures/#2.png}{\includegraphics[#1]{figures/#2.png}}{%
+    \IfFileExists{#2.png}{\includegraphics[#1]{#2.png}}{%
+      % then PDF
+      \IfFileExists{figures/#2.pdf}{\includegraphics[#1]{figures/#2.pdf}}{%
+        \IfFileExists{#2.pdf}{\includegraphics[#1]{#2.pdf}}{%
+          % then JPG/JPEG
+          \IfFileExists{figures/#2.jpg}{\includegraphics[#1]{figures/#2.jpg}}{%
+            \IfFileExists{#2.jpg}{\includegraphics[#1]{#2.jpg}}{%
+              \IfFileExists{figures/#2.jpeg}{\includegraphics[#1]{figures/#2.jpeg}}{%
+                \IfFileExists{#2.jpeg}{\includegraphics[#1]{#2.jpeg}}{%
+                  % last resort: let graphicx try whatever is available
+                  \includegraphics[#1]{#2}%
+                }%
+              }%
+            }%
+          }%
+        }%
+      }%
+    }%
+  }%
+}

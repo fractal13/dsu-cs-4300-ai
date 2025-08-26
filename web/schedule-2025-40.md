@@ -4,7 +4,7 @@ CS 4300: Artificial Intelligence
 Fall 2025 Schedule
 --------------------
 
-Day                     | Topic                                                                          |
+Day                     | Topic                                                                          | X
 ------------------------|--------------------------------------------------------------------------------|---------
 **Week 1 (Aug 21)**     | Introduction: intelligent agents, history of AI, PEAS, agent–environment loop  |
                         |                                                                                |

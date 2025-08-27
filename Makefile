@@ -1,5 +1,5 @@
 REPO := dsu-cs-4300-ai
-EXAMPLE_REPO := ut-cs4300-examples-2023-40
+EXAMPLE_REPO := ut-cs4300-examples
 
 all:
 

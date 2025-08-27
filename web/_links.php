@@ -21,10 +21,11 @@ else
    $print = "";
 }
 
+##<! <a href="assignments.php">Assignments</a> | >
+
 print '<p>
 <a href="index.php">Course Home</a> |
 <a href="syllabus.php">Syllabus</a> |
-<a href="assignments.php">Assignments</a> |
 <a href="schedule.php">Schedule</a> |
 <a href="examples.php">Downloads</a> 
 '. $print .'
